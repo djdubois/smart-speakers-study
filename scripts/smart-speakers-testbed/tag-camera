@@ -1,0 +1,91 @@
+#!/bin/bash
+
+CURRENT_DIR="$(dirname "$(readlink -f "$0")")"
+ME="$0"
+CAMERA_ACT="$1"
+TAG="$2"
+TOLERANCE="$3"
+METHOD="camera"
+
+function usage()
+{
+    echo "Usage: $ME <CAMERA ACTIVATIONS FILE> <TAG> [<TOLERANCE>]"
+}
+
+function help()
+{
+    usage
+    echo
+    echo "This script tags camera activations occurred in voice-assist capture."
+    echo
+    echo "This script will parse the output of the grab activations script (devices.txt)"
+    echo "and then tags all activations within such file."
+    echo
+    echo "A mandatory TAG parameter must be specified to make this tag unique. It can be"
+    echo "for example a progressive number."
+    echo
+    echo "An optional tolerance can be specified (in seconds), to tag also the boundaries"
+    echo "of the activation."
+    echo
+    echo "Example: $ME devices.txt 1"
+}
+
+function check_num()
+{
+    re='^[0-9]+$'
+    if ! [[ "$1" =~ $re ]] ; then
+        echo "$ME: the specified parameter is not a valid number."
+        echo "For more information: $ME help"
+        exit 1
+    fi
+}
+
+if [[ -z "$2" ]] || [[ "$1" == "help" ]]; then
+    help
+    exit 0
+fi
+
+if [ ! -f "$CAMERA_ACT" ]; then
+    echo "$ME: file not found."
+    exit 1
+fi
+
+if [[ -z "$TAG" ]] || [[ ! "$TAG" =~ ^[A-Za-z0-9_]*$ ]] ; then
+    echo "$ME: TAG is not valid. TAG can only contain letters, numbers, and \"_\""
+    echo "For more information: $ME help"
+    exit 1
+fi
+
+if [ -z "$TOLERANCE" ]; then
+    TOLERANCE="0"
+fi
+
+check_num "$TOLERANCE"
+
+if (( tolerance<0 )); then
+    echo "$ME: Tolerance cannot be negative."
+    exit 1
+fi
+
+readarray -t CAMERA_ACTS <"$CAMERA_ACT"
+NUM_CAMERA_ACTS="${#CAMERA_ACTS[@]}"
+
+#echo $NUM_CAMERA_ACTS
+
+for (( i=0; i<$NUM_CAMERA_ACTS; i++ ))
+do
+    line="${CAMERA_ACTS[$i]}"
+    if [[ "$line" =~ /([^/]+)/capture.mkv ]]; then
+        #echo "Processing capture ${BASH_REMATCH[1]}..."
+        CAPTURE="${BASH_REMATCH[1]}"
+    elif [[ -n "$CAPTURE" ]] && [[ "$line" =~ ^(.+)\:\(([0-9]+)\,[[:space:]]([0-9]+)\) ]]; then
+        DEVICE="${BASH_REMATCH[1]}"
+        START_T="${BASH_REMATCH[2]}"
+        END_T="${BASH_REMATCH[3]}"
+        echo "$line"
+        echo "Found activation on device $DEVICE from ${START_T}s to ${END_T}s"
+        "$CURRENT_DIR/tag-activation" "$CAPTURE" "$DEVICE" "$TAG" "$METHOD" "$START_T" "$END_T" "$TOLERANCE"
+    fi
+done
+
+echo Done.

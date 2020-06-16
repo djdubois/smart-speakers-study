@@ -1,0 +1,13 @@
+cc:f7:35:8c:42:6e hb-echodot-1
+68:9a:87:a5:fa:25 hb-echodot-2
+fc:49:2d:1a:78:6a hb-echodot-3
+4c:17:44:ec:b:82 hb-echodot-4
+b0:fc:d:c3:30:8d hb-echodot-5
+68:37:e9:1:5a:23 hb-echodot-6
+68:db:f5:90:19:64 echodot3a
+d4:a3:3d:6b:1e:97 homepod
+d8:f7:10:c3:34:e4 invoke
+44:07:0b:50:4d:df google-home-mini2
+68:db:f5:b9:5d:01 echodot3b
+18:74:2e:41:4d:35 echodot
+fc:65:de:5f:15:0a t-echodot

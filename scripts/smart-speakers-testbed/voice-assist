@@ -1,0 +1,330 @@
+#!/bin/bash
+
+CURRENT_DIR="$(dirname "$(readlink -f "$0")")"
+VOICE_ASSIST_CONF="voice-assist.conf"
+ME="$0"
+COMMAND="$1"
+SOURCE_MATERIAL_EXTENSIONS="mkv vob ogv avi mts ts m2ts mov qt wmv wma asf amv mp4 m4p m4v mpg mp2 mpeg mp3 mpv m2v 3gp aac m4a m4b mp3 mp4 ogg oga mogg wav webm"
+
+function check_set()
+{
+    name="$1"
+    value="$2"
+
+    if [ -z "$value" ]; then
+        echo "Error: a value for $name has not been provided."
+        exit 1
+    fi
+}
+
+function check_file()
+{
+    name="$1"
+    value="$2"
+
+    check_set "$name" "$value"
+
+    if [ -f "$value" ]; then
+        res="$value"
+        return
+    elif [ -f "$CURRENT_DIR/$value" ]; then
+        res="$CURRENT_DIR/$value"
+        return
+    fi
+
+    echo "Error: unable to find the file referred by the $name variable."
+    exit 1
+}
+
+function check_dir()
+{
+    name="$1"
+    value="$2"
+
+    check_set "$name" "$value"
+
+    if [ -d "$value" ]; then
+        res="$value"
+        return
+    elif [ -d "$CURRENT_DIR/$value" ]; then
+        res="$CURRENT_DIR/$value"
+        return
+    fi
+
+    echo "Error: unable to find the directory referred by the $name variable."
+    exit 1
+}
+
+function check_exec()
+{
+    name="$1"
+    value="$2"
+
+    check_set "$name" "$value"
+
+    path_value=$(which "$value")
+
+    if [ -x "$path_value" ]; then
+        res="$path_value"
+        return
+    fi
+
+    check_file "$name" "$value"
+
+    if [ ! -x "$res" ]; then
+        echo "Error: unable to find the executable command referred by the $name variable."
+        exit 1
+    fi
+}
+
+function load_config()
+{
+    check_file VOICE_ASSIST_CONF "$VOICE_ASSIST_CONF"
+    source "$res"
+    check_dir SOURCE_MATERIAL_DIR "$SOURCE_MATERIAL_DIR"
+    SOURCE_MATERIAL_DIR="$res"
+    check_dir CAPTURE_DIR "$CAPTURE_DIR"
+    CAPTURE_DIR="$res"
+    if [ -d "$CURRENT_DIR/$TMP_DIR" ]; then
+        TMP_DIR="$CURRENT_DIR/$TMP_DIR"
+    else
+        check_dir TMP_DIR "$TMP_DIR"
+        TMP_DIR="$res"
+    fi
+    check_exec TAG_EXPERIMENT_CMD "$TAG_EXPERIMENT_CMD"
+    TAG_EXPERIMENT_CMD="$res"
+    check_exec FFMPEG_CMD "$FFMPEG_CMD"
+    FFMPEG_CMD="$res"
+    check_exec MPLAYER_CMD "$MPLAYER_CMD"
+    MPLAYER_CMD="$res"
+    check_set DEVICES_TO_CAPTURE "$DEVICES_TO_CAPTURE"
+    check_set CAMERA_STREAM "$CAMERA_STREAM"
+    [ ! -f "$VOICE_ASSIST_LOGFILE" ] && touch "$CURRENT_DIR/$VOICE_ASSIST_LOGFILE"
+    check_file VOICE_ASSIST_LOGFILE "$VOICE_ASSIST_LOGFILE"
+    VOICE_ASSIST_LOGFILE="$res"
+    PID_FILE="$TMP_DIR/voice-assist.pid"
+    VIDEO_FILE="capture.mkv"
+    TIME_FILE="time.txt"
+    if [ -n "$BEFORE_SCRIPT" ]; then
+        check_exec BEFORE_SCRIPT "$BEFORE_SCRIPT"
+        BEFORE_SCRIPT="$res"
+    fi
+    if [ -n "$AFTER_SCRIPT" ]; then
+        check_exec AFTER_SCRIPT "$AFTER_SCRIPT"
+        AFTER_SCRIPT="$res"
+    fi
+}
+
+function usage()
+{
+    echo "Usage: $ME <start-batch|stop|status|help>"
+    echo "       $ME start <SOURCE_VIDEO_FILE>"
+}
+
+function help()
+{
+    usage
+    echo
+    echo "This script manages the voice-assist capture."
+    echo "The voice assist capture consists in playing some source material, and capturing"
+    echo "the video of a camera pointed at the smart speakers and the network traffic exchanged"
+    echo "by them over the Internet."
+    echo "Voice assist can either be used on a single source material file (start command), or"
+    echo "in batch mode, to process all the files in the source material directory."
+    echo "When voice-assist batch capture is active, it will process all source material"
+    echo "that has not been processed yet. If there is no more source material, this script"
+    echo "waits for new source material without quitting."
+    echo
+    echo "If voice-assist is stopped, the source material capture currently in progress will be"
+    echo "aborted and the data of partially captured material deleted."
+    echo
+    echo "start         Start a single voice-assist capture (an existing video file must be specified)."
+    echo
+    echo "start-batch   Start batch voice-assist capture using the source material directory."
+    echo "              Only new source material will be processed (even the material added after it is started)."
+    echo
+    echo "stop          Stop voice-assist capture (batch or manual). Data of partial captures will be deleted."
+    echo
+    echo "status        Query the current status of a voice-assist capture."
+    echo
+    echo "help          Show this help."
+    echo
+    echo "Examples: $ME start-batch"
+    echo "          $ME start my_video_file.mp4"
+}
+
+function check_running()
+{
+    res=""
+    [ ! -f "$PID_FILE" ] && return
+    currentPID=`cat "$PID_FILE"`
+    [ -z "$PID_FILE" ] && return
+    [ ! -f "/proc/$currentPID/comm" ] && return
+    if [ `cat "/proc/$currentPID/comm"` == `cat "/proc/$$/comm"` ]; then
+        res="$currentPID"
+    fi
+}
+
+function capture-traffic()
+{
+    for device in $DEVICES_TO_CAPTURE; do
+        if [ "$1" == "cancel" ]; then
+            "$TAG_EXPERIMENT_CMD" cancel "$device" voice_assist_capture
+        elif [ "$1" == "start" ]; then
+            "$TAG_EXPERIMENT_CMD" start "$device" voice_assist_capture && CAPTURE_TRAFFIC_FAIL="false" || CAPTURE_TRAFFIC_FAIL="true"
+        elif [ "$1" == "stop" ]; then
+            "$TAG_EXPERIMENT_CMD" stop "$device" voice_assist_capture "$TMP_DIR" && CAPTURE_TRAFFIC_FAIL="false" || CAPTURE_TRAFFIC_FAIL="true"
+        else
+            echo "Warning: unknown parameter for capture-traffic: $1"
+        fi
+    done
+}
+
+function capture-one()
+{
+    CAPTURE_FILE="$1"
+    CAPTURE_BASE=$(basename -- "$CAPTURE_FILE")
+    CAPTURE_NAME="${CAPTURE_BASE%.*}"
+    echo "`date "+%Y-%m-%d %H:%M:%S"` Starting capture iteration for: $CAPTURE_NAME ($CAPTURE_FILE)"
+    capture-traffic cancel &> /dev/null
+    killall -KILL ffmpeg &> /dev/null
+    rm -f "$TMP_DIR/$VIDEO_FILE"
+    for device in $DEVICES_TO_CAPTURE; do
+        rm -rf "$TMP_DIR/$device/voice_assist_capture"
+        rmdir "$TMP_DIR/$device" &> /dev/null
+    done
+    [ -x "$BEFORE_SCRIPT" ] && $BEFORE_SCRIPT "$CAPTURE_NAME" "$CAPTURE_FILE"
+    "$FFMPEG_CMD" -i "$CAMERA_STREAM" -acodec copy -vcodec copy "$TMP_DIR/$VIDEO_FILE" &> /dev/null &
+    FFMPEG_PID="$!"
+    capture-traffic start
+
+    if [ "$CAPTURE_TRAFFIC_FAIL" == "true" ]; then
+        echo "`date "+%Y-%m-%d %H:%M:%S"` capture-traffic start fail. Check that the testbed is active. Capture aborted for $CAPTURE_NAME ($CAPTURE_FILE)"
+        sleep 5
+        return
+    fi
+
+    TIME_INIT=`date "+%Y-%m-%d %H:%M:%S.%3N"`
+    "$MPLAYER_CMD" -novideo "$CAPTURE_FILE" &> /dev/null
+    kill -2 "$FFMPEG_PID"
+    sleep 5
+    TIME_END=`date "+%Y-%m-%d %H:%M:%S.%3N"`
+    capture-traffic stop
+
+    if [ "$CAPTURE_TRAFFIC_FAIL" == "true" ]; then
+        echo "`date "+%Y-%m-%d %H:%M:%S"` capture-traffic stop fail. Check that the testbed is active. Capture aborted for $CAPTURE_NAME ($CAPTURE_FILE)"
+        sleep 5
+        return
+    fi
+
+    mkdir -p "$CAPTURE_DIR/$CAPTURE_NAME"
+    "$FFMPEG_CMD" -i "$TMP_DIR/$VIDEO_FILE" -acodec copy -vcodec copy "$CAPTURE_DIR/$CAPTURE_NAME/$VIDEO_FILE" &> /dev/null
+    rm -f "$TMP_DIR/$VIDEO_FILE"
+    for device in $DEVICES_TO_CAPTURE; do
+        mv $TMP_DIR/$device/voice_assist_capture/*.pcap "$CAPTURE_DIR/$CAPTURE_NAME/$device.pcap"
+        rm -rf "$TMP_DIR/$device/voice_assist_capture"
+        rmdir "$TMP_DIR/$device" &> /dev/null
+    done
+    echo "start $TIME_INIT" > "$CAPTURE_DIR/$CAPTURE_NAME/$TIME_FILE"
+    echo "end $TIME_END" >> "$CAPTURE_DIR/$CAPTURE_NAME/$TIME_FILE"
+    [ -x "$AFTER_SCRIPT" ] && $AFTER_SCRIPT "$CAPTURE_NAME" "$CAPTURE_FILE"
+    echo "`date "+%Y-%m-%d %H:%M:%S"` Completed capture iteration for: $CAPTURE_NAME ($CAPTURE_FILE)"
+}
+
+function capture-batch()
+{
+    for filename in $SOURCE_MATERIAL_DIR/*; do
+        capturefile=$(basename -- "$filename")
+        capturename="${capturefile%.*}"
+        filetype="${capturefile##*.}"
+        found="false"
+
+        for ft in $SOURCE_MATERIAL_EXTENSIONS; do
+            if [ "$filetype" == "$ft" ]; then
+                found="true"
+                break
+            fi
+        done
+
+        [ "$found" == "false" ] && continue
+        [ -d "$CAPTURE_DIR/$capturename" ] && continue
+        lsof "$filename" &> /dev/null && continue
+
+        capture-one "$filename"
+    done
+}
+
+function start()
+{
+    check_running
+    if [ -n "$res" ]; then
+        echo "Warning: voice-assist is already running (PID: $res). No new instances started."
+        return
+    fi
+    echo "$$" > "$PID_FILE"
+    capture-one "$1"
+    rm "$PID_FILE"
+}
+
+function start-batch()
+{
+    check_running
+    if [ -n "$res" ]; then
+        echo "Warning: voice-assist is already running (PID: $res). No new instances started."
+        return
+    fi
+
+    echo "Starting voice-assist in batch mode"
+    (
+        echo "$BASHPID" > "$PID_FILE"
+        echo "`date "+%Y-%m-%d %H:%M:%S"` Starting voice-assist in batch mode (PID: $BASHPID)"
+        while true; do
+            capture-batch
+            sleep 10
+        done
+    ) >> "$VOICE_ASSIST_LOGFILE" 2>&1 &
+    disown
+}
+
+function stop()
+{
+    check_running
+    if [ -z "$res" ]; then
+        echo "Stopping voice-assist (no running instance found, cleaning up)"
+    else
+        echo "Stopping voice-assist (PID: $res)"
+        echo "`date "+%Y-%m-%d %H:%M:%S"` Stopping voice-assist (PID: $res)" >> "$VOICE_ASSIST_LOGFILE"
+        kill -9 "$res"
+    fi
+
+    capture-traffic cancel &> /dev/null
+    killall -KILL ffmpeg &> /dev/null
+    killall -KILL mplayer &> /dev/null
+    rm -f "$PID_FILE" "$TMP_DIR/$VIDEO_FILE"
+}
+
+function status()
+{
+    check_running
+    [ -z "$res" ] && echo "voice-assist is not running." || echo "voice-assist is running (PID: $res)"
+}
+
+load_config
+
+if [[ -z "$COMMAND" ]] || [[ "$COMMAND" == "help" ]]; then
+    help
+elif [ "$COMMAND" == "start-batch" ]; then
+    start-batch
+elif [ "$COMMAND" == "stop" ]; then
+    stop
+elif [ "$COMMAND" == "start" ]; then
+    check_file SOURCE_VIDEO_FILE "$2"
+    start "$res"
+elif [ "$COMMAND" == "status" ]; then
+    status
+else
+    echo "Unknown command."
+    usage
+fi
+
+exit 0

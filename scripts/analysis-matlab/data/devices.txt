@@ -1,0 +1,11 @@
+google/ok-google
+homepod/hey-siri
+invoke/cortana
+echo2/alexa
+echo3/alexa
+echo2/echo
+echo3/echo
+echo2/computer
+echo3/computer
+echo2/amazon
+echo3/amazon

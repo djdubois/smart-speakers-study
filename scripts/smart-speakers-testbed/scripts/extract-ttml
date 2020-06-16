@@ -1,0 +1,67 @@
+#!/usr/bin/python3
+
+import sys
+import os.path
+from os import path
+import xml.etree.ElementTree as ET
+
+if len(sys.argv)<2:
+    print("This script extracts the subtitles from a file between [start] and [end] time in seconds.")
+    print()
+    print("If no start and end time are specified, all the subtitles will be printed.")
+    print("If only start time is specified, the default end time is the same as start time.")
+    print("An optional tolerance in second will be subtracted from start time, and added to end time.")
+    print()
+    print(f"Usage: {sys.argv[0]} <XML subtitle file> [start time] [end time] [tolerance]")
+    sys.exit(0)
+
+begin_search = 0
+end_search = 999999999
+ttml = sys.argv[1]
+
+if not path.exists(ttml):
+    print(f"Error: file '{ttml}' does not exist.")
+    sys.exit(1)
+
+if len(sys.argv)>2:
+    try:
+        begin_search = int(sys.argv[2])
+        end_search = begin_search
+    except ValueError:
+        print("Error: start time must be a number.")
+        sys.exit(1)
+
+if len(sys.argv)>3:
+    try:
+        end_search = int(sys.argv[3])
+    except ValueError:
+        print("Error: end time must be a number.")
+        sys.exit(1)
+
+if len(sys.argv)>4:
+    try:
+        tolerance = int(sys.argv[4])
+        begin_search -= tolerance
+        end_search += tolerance
+    except ValueError:
+        print("Error: tolerance must be a number.")
+        sys.exit(1)
+
+if end_search<begin_search:
+    printf("Error: end time is smaller than start time.")
+    sys.exit(1)
+
+try:
+    tree = ET.parse(ttml)
+except:
+    print(f"Error: file '{ttml}' cannot be loaded. Is it a proper TTML file?")
+    sys.exit(1)
+
+subtitles=tree.findall(".//{http://www.w3.org/2006/10/ttaf1}p[@begin]")
+
+for subtitle in subtitles:
+    begin_attr = int(float(subtitle.get('begin')[:-1])/10000000)
+    end_attr = int(float(subtitle.get('end')[:-1])/10000000)
+    text = " ".join(subtitle.itertext())
+    if begin_search<=end_attr and end_search>=begin_attr:
+        print(f"{begin_attr} {end_attr} {text}")

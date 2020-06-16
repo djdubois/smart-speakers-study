@@ -1,0 +1,263 @@
+#!/bin/bash
+
+CURRENT_DIR="$(dirname "$(readlink -f "$0")")"
+VOICE_ASSIST_CONF="voice-assist.conf"
+ME="$0"
+
+function fatal()
+{
+    echo "Error while executing $1"
+    exit 1
+}
+
+function check_set()
+{
+    name="$1"
+    value="$2"
+
+    if [ -z "$value" ]; then
+        echo "Error: a value for $name has not been provided."
+        exit 1
+    fi
+}
+
+function check_file()
+{
+    name="$1"
+    value="$2"
+
+    check_set "$name" "$value"
+
+    if [ -f "$value" ]; then
+        res="$value"
+        return
+    elif [ -f "$CURRENT_DIR/$value" ]; then
+        res="$CURRENT_DIR/$value"
+        return
+    fi
+
+    echo "Error: unable to find the file referred by the $name variable."
+    exit 1
+}
+
+function check_dir()
+{
+    name="$1"
+    value="$2"
+
+    check_set "$name" "$value"
+
+    if [ -d "$value" ]; then
+        res="$value"
+        return
+    elif [ -d "$CURRENT_DIR/$value" ]; then
+        res="$CURRENT_DIR/$value"
+        return
+    fi
+
+    echo "Error: unable to find the directory referred by the $name variable."
+    exit 1
+}
+
+function load_config()
+{
+    check_file VOICE_ASSIST_CONF "$VOICE_ASSIST_CONF"
+    source "$res"
+    check_dir SOURCE_MATERIAL_DIR "$SOURCE_MATERIAL_DIR"
+    SOURCE_MATERIAL_DIR="$res"
+    check_dir CAPTURE_DIR "$CAPTURE_DIR"
+    CAPTURE_DIR="$res"
+    SOURCE_FILE="source"
+    VIDEO_FILE="capture.mkv"
+    TIME_FILE="time.txt"
+}
+
+function usage()
+{
+    echo "Usage: $ME <CAPTURE> <DEVICE> <TAG> <METHOD> <START TIME> <END TIME> [<TOLERANCE>]"
+    echo "       $ME help"
+}
+
+function help()
+{
+    usage
+    echo
+    echo "This script tag activations occurred in voice-assist capture."
+    echo
+    echo "This script will extract captured material in CAPTURE related to the specified DEVICE"
+    echo "and Copies it in the ACTIVATION_DIR directory configured in voice-assist.conf."
+    echo "The data that is copied is all the data between START TIME and END TIME, expressed"
+    echo "in seconds. If START TIME is greater than 1 million, it is considered absolute,"
+    echo "otherwise it is considered relative."
+    echo
+    echo "TAG is used to specify the context related to the activation (e.g., the number of run)."
+    echo
+    echo "METHOD is used to specify the method used to detect the activation."
+    echo
+    echo "TOLERANCE is the offset of time that should be subtracted from START TIME and"
+    echo "added to END TIME. Useful to capture some additional data around the boundaries of"
+    echo "the activation."
+    echo
+    echo "The CAPTURE must exist as a subdirectory in CAPTURE_DIR. The CAPTURE directory must"
+    echo "contain data related to DEVICE."
+    echo
+    echo "Examples: $ME TestCapture echodot run1 traffic 6000 6010 5"
+    echo "          $ME \"Another Test Capture\" invoke run2 camera 1500000000 1500000010"
+}
+
+function check_num()
+{
+    re='^[0-9]+$'
+    if ! [[ "$1" =~ $re ]] ; then
+        echo "$ME: the specified parameter is not a valid number."
+        echo "For more information: $ME help"
+        exit 1
+    fi
+}
+
+
+if [[ -z "$1" ]] || [[ "$1" == "help" ]]; then
+    help
+    exit 0
+fi
+
+load_config
+
+CAPTURE="$1"
+DEVICE="$2"
+TAG="$3"
+METHOD="$4"
+START_T="$5"
+END_T="$6"
+TOLERANCE="$7"
+
+if (( $# < 6 )); then
+    echo "$ME: not enough parameters."
+    echo "For more information: $ME help"
+    exit 1
+fi
+
+MY_CAPTURE_DIR="$CAPTURE_DIR/$CAPTURE"
+
+if [ ! -d "$MY_CAPTURE_DIR" ]; then
+    echo "$ME: the specified capture does not exist in $CAPTURE_DIR ($MY_CAPTURE_DIR)."
+    echo "For more information: $ME help"
+    exit 1
+fi
+
+if [[ -z "$TAG" ]] || [[ ! "$TAG" =~ ^[A-Za-z0-9_]*$ ]] ; then
+    echo "$ME: TAG is not valid. TAG can only contain letters, numbers, and \"_\""
+    echo "For more information: $ME help"
+    exit 1
+fi
+
+if [[ -z "$METHOD" ]] || [[ ! "$METHOD" =~ ^[A-Za-z0-9_]*$ ]] ; then
+    echo "$ME: METHOD is not valid. METHOD can only contain letters, numbers, and \"_\""
+    echo "For more information: $ME help"
+    exit 1
+fi
+
+check_num "$START_T"
+check_num "$END_T"
+
+if [ -n "$TOLERANCE" ]; then
+    check_num "$TOLERANCE"
+    if ((TOLERANCE<0)); then
+        TOLERANCE=0
+    fi
+else
+    TOLERANCE=0
+fi
+
+if ((START_T<0)); then
+    START_T=0
+fi
+
+if ((END_T<START_T)); then
+    echo "$ME: END_T cannot be less than START_T"
+    echo "For more information: $ME help"
+    exit 1
+fi
+
+if [ ! -f "$MY_CAPTURE_DIR/$TIME_FILE" ]; then
+    echo "Error: cannot find $TIME_FILE. It is mandatory if using absolute time."
+    exit 1
+fi
+
+TIME_ABS_FULL=`cat "$MY_CAPTURE_DIR/$TIME_FILE" | grep start`
+TIME_ABS_FULL="${TIME_ABS_FULL/_/ }"
+TIME_ABS=`date -d "${TIME_ABS_FULL/start/}" +"%s"`
+
+if ((START_T>1000000)); then
+    START_ABS="$START_T"
+    END_ABS="$END_T"
+    ((START_T-=TIME_ABS))
+    ((END_T-=TIME_ABS))
+    if ((START_T<0)); then
+       echo "Error: negative START TIME after absolute-to-relative conversion"
+    fi
+else
+    START_ABS=$((TIME_ABS+START_T))
+    END_ABS=$((TIME_ABS+END_T))
+fi
+
+START_ABS_FULL=`date '+%Y-%m-%d_%H:%M:%S' -d @$START_ABS`
+END_ABS_FULL=`date '+%Y-%m-%d_%H:%M:%S' -d @$END_ABS`
+
+echo "TAGGING: $MY_CAPTURE_DIR ($DEVICE/$TAG/$METHOD) From: $START_T To: $END_T ($START_ABS_FULL to $END_ABS_FULL) Tolerance: $TOLERANCE"
+
+START_T_LONG=`printf "%05d" $START_T`
+END_T_LONG=`printf "%05d" $END_T`
+
+MY_ACTIVATION_DIR="$ACTIVATION_DIR/${CAPTURE}/${START_T_LONG}_${END_T_LONG}_${DEVICE}_${METHOD}_${TAG}"
+
+if [ -d "$MY_ACTIVATION_DIR" ]; then
+    echo "WARNING: $MY_ACTIVATION_DIR activation already exists! Overwriting."
+fi
+
+mkdir -p "$MY_ACTIVATION_DIR" || fatal "mkdir"
+export PATH="$CURRENT_DIR/scripts:$PATH"
+echo "start $START_ABS_FULL" > "$MY_ACTIVATION_DIR/$TIME_FILE"
+echo "end $END_ABS_FULL" >> "$MY_ACTIVATION_DIR/$TIME_FILE"
+echo "start $START_T" > "$MY_ACTIVATION_DIR/relative-$TIME_FILE"
+echo "end $END_T" >> "$MY_ACTIVATION_DIR/relative-$TIME_FILE"
+
+SOURCE_MATERIAL_MP4="$SOURCE_MATERIAL_DIR/$CAPTURE.mp4"
+SOURCE_MATERIAL_MKV="$SOURCE_MATERIAL_DIR/$CAPTURE.mkv"
+SOURCE_MATERIAL_MOV="$SOURCE_MATERIAL_DIR/$CAPTURE.mov"
+SOURCE_MATERIAL_AVI="$SOURCE_MATERIAL_DIR/$CAPTURE.avi"
+
+[ -f "$SOURCE_MATERIAL_AVI" ] && SOURCE_MATERIAL="$SOURCE_MATERIAL_AVI" && SOURCE_TYPE="avi"
+[ -f "$SOURCE_MATERIAL_MOV" ] && SOURCE_MATERIAL="$SOURCE_MATERIAL_MOV" && SOURCE_TYPE="mov"
+[ -f "$SOURCE_MATERIAL_MKV" ] && SOURCE_MATERIAL="$SOURCE_MATERIAL_MKV" && SOURCE_TYPE="mkv"
+[ -f "$SOURCE_MATERIAL_MP4" ] && SOURCE_MATERIAL="$SOURCE_MATERIAL_MP4" && SOURCE_TYPE="mp4"
+
+if [ -z "$SOURCE_MATERIAL" ]; then
+    echo "WARNING: cannot find video source material."
+else
+    extract-video "$SOURCE_MATERIAL" "$MY_ACTIVATION_DIR/$SOURCE_FILE.$SOURCE_TYPE" "$START_T" "$END_T" "$TOLERANCE" || fatal "extract-video"
+fi
+
+SOURCE_MATERIAL_TTML="$SOURCE_MATERIAL_DIR/$CAPTURE.ttml"
+
+if [ ! -f "$SOURCE_MATERIAL_TTML" ]; then
+    echo "WARNING: cannot find subtitles source material."
+else
+    extract-ttml "$SOURCE_MATERIAL_TTML" "$START_T" "$END_T" "$TOLERANCE" > "$MY_ACTIVATION_DIR/subtitles.txt" || fatal "extract-ttml"
+fi
+
+if [ ! -f "$MY_CAPTURE_DIR/$VIDEO_FILE" ]; then
+    echo "WARNING: cannot find video capture material."
+else
+    extract-video "$MY_CAPTURE_DIR/$VIDEO_FILE" "$MY_ACTIVATION_DIR/$VIDEO_FILE" "$START_T" "$END_T" "$TOLERANCE" || fatal "extract-video"
+fi
+
+if [ ! -f "$MY_CAPTURE_DIR/${DEVICE}.pcap" ]; then
+    echo "WARNING: cannot find traffic capture for $DEVICE."
+else
+    extract-pcap "$MY_CAPTURE_DIR/${DEVICE}.pcap" "$MY_ACTIVATION_DIR/$DEVICE.pcap" "$START_T" "$END_T" "$TOLERANCE" || fatal "extract-pcap"
+fi
+
+echo "Results generated: $MY_ACTIVATION_DIR"
+
+exit 0

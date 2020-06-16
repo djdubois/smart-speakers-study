@@ -1,0 +1,61 @@
+#!/usr/bin/python3
+
+import sys
+import os.path
+from os import path
+import subprocess
+
+if len(sys.argv)<5:
+    print("This script extracts a video from a file between [start] and [end] time in seconds.")
+    print()
+    print("An optional tolerance in second will be subtracted from start time, and added to end time.")
+    print()
+    print(f"Usage: {sys.argv[0]} <source video file> <destination video file> <start time> <end time> [tolerance]")
+    sys.exit(0)
+
+video_i=sys.argv[1]
+video_o=sys.argv[2]
+
+if not path.exists(video_i):
+    print(f"Error: file '{video_i}' does not exist.")
+    sys.exit(1)
+
+try:
+    start_t = int(sys.argv[3])
+except ValueError:
+    print("Error: start time must be a number.")
+    sys.exit(1)
+
+try:
+    end_t = int(sys.argv[4])
+except ValueError:
+    print("Error: end time must be a number.")
+    sys.exit(1)
+
+if start_t>end_t:
+    print("Error: start time greater than end time")
+    sys.exit(1)
+
+if len(sys.argv)>5:
+    try:
+        tolerance = int(sys.argv[5])
+        start_t -= tolerance
+        end_t += tolerance
+    except ValueError:
+        print("Error: tolerance must be a number.")
+        sys.exit(1)
+
+if start_t<0:
+    bstart_t = 0
+
+cmd = ["ffmpeg","-y",
+           "-ss", "%0.2f"%start_t,
+           "-i", video_i,
+           "-t", "%0.2f"%(end_t-start_t),
+           "-vcodec", "copy", "-acodec", "copy", video_o]
+
+try:
+    subprocess.check_call(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+except subprocess.CalledProcessError:
+    print("Error executing:", " ".join(cmd))
+    sys.exit(1)

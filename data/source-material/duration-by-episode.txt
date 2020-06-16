@@ -1,0 +1,217 @@
+1237.278000 [S11.Ep19] The Big Bang Theory - The Tenant Disassociation
+1262.303000 [S11.Ep20] The Big Bang Theory - The Reclusive Potential
+1227.268000 [S11.Ep21] The Big Bang Theory - The Comet Polarization
+1142.183000 [S11.Ep22] The Big Bang Theory - The Monetary Insufficiency
+1203.244000 [S11.Ep23] The Big Bang Theory - The Sibling Realignment
+1292.834000 [S11.Ep24] The Big Bang Theory - The Bow Tie Asymmetry
+1241.866000 [S12.Ep10] The Big Bang Theory - The VCR Illumination
+1151.067000 [S12.Ep11] The Big Bang Theory - The Paintball Scattering
+1184.893000 [S12.Ep12] The Big Bang Theory - The Propagation Proposition
+1199.866000 [S12.Ep13] The Big Bang Theory - The Confirmation Polarization
+1159.909000 [S12.Ep14] The Big Bang Theory - The Meteorite Manifestation
+1260.480000 [S12.Ep15] The Big Bang Theory - The Donation Oscillation
+1195.028000 [S12.Ep16] The Big Bang Theory - The D & D Vortex
+1165.999000 [S12.Ep17] The Big Bang Theory - The Conference Valuation
+1280.000000 [S12.Ep18] The Big Bang Theory - The Laureate Accumulation
+1204.996000 [S12.Ep19] The Big Bang Theory - The Inspiration Deprivation
+1224.933000 [S12.Ep1] The Big Bang Theory - The Conjugal Configuration
+1135.093000 [S12.Ep20] The Big Bang Theory - The Decision Reverberation
+1184.896000 [S12.Ep21] The Big Bang Theory - The Plagiarism Schism
+1219.936000 [S12.Ep22] The Big Bang Theory - The Maternal Conclusion
+1182.944000 [S12.Ep23] The Big Bang Theory - The Change Constant
+1379.968000 [S12.Ep24] The Big Bang Theory - The Stockholm Syndrome
+1260.093000 [S12.Ep2] The Big Bang Theory - The Wedding Gift Wormhole
+1215.008000 [S12.Ep3] The Big Bang Theory - The Procreation Calculation
+1130.964000 [S12.Ep4] The Big Bang Theory - The Tam Turbulence
+1124.928000 [S12.Ep5] The Big Bang Theory - The Planetarium Collision
+1145.478000 [S12.Ep6] The Big Bang Theory - The Imitation Perturbation
+1144.864000 [S12.Ep7] The Big Bang Theory - The Grant Allocation Derivation
+1255.008000 [S12.Ep8] The Big Bang Theory - The Consummation Deviation
+1209.920000 [S12.Ep9] The Big Bang Theory - The Citation Negation
+2644.642000 [S15.Ep11] Grey's Anatomy - The Winner Takes It All
+2639.137000 [S15.Ep12] Grey's Anatomy - Girlfriend in a Coma
+2580.662000 [S15.Ep13] Grey's Anatomy - I Walk the Line
+2423.004000 [S15.Ep14] Grey's Anatomy - I Want a New Drug
+2586.084000 [S15.Ep15] Grey's Anatomy - We Didn't Start the Fire
+2555.136000 [S15.Ep16] Grey's Anatomy - Blood and Water
+2588.086000 [S15.Ep17] Grey's Anatomy - And Dream of Sheep
+2551.675000 [S15.Ep18] Grey's Anatomy - Add It Up
+2632.505000 [S15.Ep19] Grey's Anatomy - Silent All These Years
+2586.251000 [S15.Ep20] Grey's Anatomy - The Whole Package
+2587.127000 [S15.Ep21] Grey's Anatomy - Good Shepherd
+2588.128000 [S15.Ep22] Grey's Anatomy - Head Over High Heels
+2553.843000 [S15.Ep23] Grey's Anatomy - What I Did for Love
+2549.923000 [S15.Ep24] Grey's Anatomy - Drawn to the Blood
+2581.955000 [S15.Ep25] Grey's Anatomy - Jump into the Fog
+3176.048000 [S2.Ep10] Narcos - Al Fin Cayó!
+2532.608000 [S2.Ep15] Greenleaf - Two by Two
+2514.112000 [S2.Ep16] Greenleaf - The Pearl
+3267.181000 [S2.Ep8] Narcos - Exit El Patrón
+3410.825000 [S2.Ep9] Narcos - Nuestra Finca
+2618.624000 [S3.Ep10] Friday Night Tykes - Babies from Texas
+2471.511000 [S3.Ep10] Greenleaf - The Promised Land
+3054.427000 [S3.Ep10] Narcos - Going Back to Cali
+2543.959000 [S3.Ep10] Riverdale - Chapter Forty-Five - 'The Stranger'
+2496.536000 [S3.Ep11] Greenleaf - The End Is Near
+2542.880000 [S3.Ep11] Riverdale - Chapter Forty-Six - 'The Red Dahlia'
+2491.031000 [S3.Ep12] Greenleaf - Day of Reckoning
+2515.347000 [S3.Ep12] Riverdale - Chapter Forty-Seven - 'Bizarrodale'
+2495.035000 [S3.Ep13] Greenleaf - The New Life
+2536.128000 [S3.Ep13] Riverdale - Chapter Forty-Eight - 'Requiem for a Welterweight'
+2540.038000 [S3.Ep14] Riverdale - Chapter Forty-Nine - 'Fire Walk With Me'
+2543.136000 [S3.Ep15] Riverdale - Chapter Fifty - 'American Dreams'
+2543.333000 [S3.Ep16] Riverdale - Chapter Fifty-One - 'Big Fun'
+2539.079000 [S3.Ep17] Riverdale - Chapter Fifty-Two - “The Raid”
+2530.880000 [S3.Ep18] Riverdale - Chapter Fifty-Three - 'Jawbreaker'
+2533.740000 [S3.Ep19] Riverdale - Chapter Fifty-Four - “Fear the Reaper”
+2495.035000 [S3.Ep1] Greenleaf - Strange Currents
+2513.152000 [S3.Ep20] Riverdale - Chapter Fifty-Five - 'Prom Night'
+2543.333000 [S3.Ep21] Riverdale - Chapter Fifty-Six - 'The Dark Secret of Harvest House'
+2543.250000 [S3.Ep22] Riverdale - Chapter Fifty-Seven - 'Survive the Night'
+2414.454000 [S3.Ep2] Greenleaf - The Space Between
+2964.837000 [S3.Ep2] Narcos - The Cali KGB
+2506.546000 [S3.Ep3] Greenleaf - Chain of Command
+3551.924000 [S3.Ep3] Narcos - Follow the Money
+2477.017000 [S3.Ep4] Greenleaf - The Underdog
+3175.548000 [S3.Ep4] Narcos - Checkmate
+2494.034000 [S3.Ep5] Greenleaf - Closing Doors
+3630.002000 [S3.Ep5] Narcos - MRO
+2620.843000 [S3.Ep6] Friday Night Tykes - Jesus in Football Cleats
+2515.055000 [S3.Ep6] Greenleaf - She Changes Everything
+3438.310000 [S3.Ep6] Narcos - Best Laid Plans
+2621.578000 [S3.Ep7] Friday Night Tykes - When the Rabbit Has the Gun
+2483.523000 [S3.Ep7] Greenleaf - That Was Then
+3013.386000 [S3.Ep7] Narcos - Sin Salida
+2621.244000 [S3.Ep8] Friday Night Tykes - Two Danny Devitos
+2416.957000 [S3.Ep8] Greenleaf - Dea Abscondita
+3084.457000 [S3.Ep8] Narcos - Convivir
+2470.112000 [S3.Ep8] Riverdale - Chapter Forty-Three - 'Outbreak'
+2621.578000 [S3.Ep9] Friday Night Tykes - I'm Not Ready to Be Done Yet
+2498.538000 [S3.Ep9] Greenleaf - Runaway Train
+2831.704000 [S3.Ep9] Narcos - Todos Los Hombres del Presidente
+2525.120000 [S3.Ep9] Riverdale - Chapter Forty-Four - 'No Exit'
+2621.911000 [S4.Ep10] Friday Night Tykes - If You Wanna Show, I'll Give You One
+2618.867000 [S4.Ep1] Friday Night Tykes - What's Your Malfunction
+2617.302000 [S4.Ep2] Friday Night Tykes - Home of the Gods
+2618.283000 [S4.Ep3] Friday Night Tykes - God Don't Like Ugly
+2619.034000 [S4.Ep4] Friday Night Tykes - We All Failed Him
+2618.283000 [S4.Ep5] Friday Night Tykes - Be the Adult
+2621.014000 [S4.Ep6] Friday Night Tykes - Ain't the Time to Be Holding Hands
+2618.283000 [S4.Ep7] Friday Night Tykes - Ain't Gotta Cheat Us to Beat Us
+2618.752000 [S4.Ep8] Friday Night Tykes - Ruined by Adults
+2618.533000 [S4.Ep9] Friday Night Tykes - But My Mama Ain't Here
+2494.284000 [S5.Ep10] Jane The Virgin - Chapter Ninety-One
+3404.235000 [S5.Ep10] The L Word - Lifecycle
+2556.346000 [S5.Ep11] Jane The Virgin - Chapter Ninety-Two
+3335.124000 [S5.Ep11] The L Word - Lunar Cycle
+2546.336000 [S5.Ep12] Jane The Virgin - Chapter Ninety-Three
+4010.173000 [S5.Ep12] The L Word - Loyal and True
+2534.824000 [S5.Ep13] Jane The Virgin - Chapter Ninety-Four
+2544.834000 [S5.Ep14] Jane The Virgin - Chapter Ninety-Five
+2464.254000 [S5.Ep15] Jane The Virgin - Chapter Ninety-Six
+2515.305000 [S5.Ep16] Jane The Virgin - Chapter Ninety-Seven
+2560.350000 [S5.Ep17] Jane The Virgin - Chapter Ninety-Eight
+2500.800000 [S5.Ep18] Jane The Virgin - Chapter Ninety-Nine
+2614.912000 [S5.Ep19] Jane The Virgin - Chapter One Hundred
+2560.864000 [S5.Ep5] Jane The Virgin - Chapter Eighty-Six
+2510.816000 [S5.Ep6] Jane The Virgin - Chapter Eighty-Seven
+2560.350000 [S5.Ep7] Jane The Virgin - Chapter Eighty-Eight
+2559.349000 [S5.Ep8] Jane The Virgin - Chapter Eighty-Nine
+3153.067000 [S5.Ep8] The L Word - Laydown the Law
+2552.342000 [S5.Ep9] Jane The Virgin - Chapter Ninety
+3496.994000 [S5.Ep9] The L Word - Liquid Heat
+3335.008000 [S6.Ep1] The L Word - Long Night's Journey into Day
+3039.412000 [S6.Ep2] The L Word - Least Likely
+2972.864000 [S6.Ep3] The L Word - LMFAO
+3284.073000 [S6.Ep4] The L Word - Leaving Los Angeles
+3292.768000 [S6.Ep5] The L Word - Litmus Test
+3519.558000 [S6.Ep6] The L Word - Lactose Intolerant
+3077.760000 [S6.Ep7] The L Word - Last Couple Standing
+2473.013000 [S7.Ep10] Gilmore Girls - Merry Fisticuffs
+2612.736000 [S7.Ep10] The West Wing - Running Mates
+2497.537000 [S7.Ep11] Gilmore Girls - Santa's Secret Stuff
+2578.910000 [S7.Ep11] The West Wing - Internal Displacement
+2550.090000 [S7.Ep12] Gilmore Girls - To Whom It May Concern
+2579.953000 [S7.Ep12] The West Wing - Duck and Cover
+2534.074000 [S7.Ep13] Gilmore Girls - I'd Rather Be in Philadelphia
+2564.822000 [S7.Ep13] The West Wing - The Cold
+2543.083000 [S7.Ep14] Gilmore Girls - Farewell, My Pet
+2604.185000 [S7.Ep14] The West Wing - Two Weeks Out
+2559.599000 [S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar
+2596.177000 [S7.Ep15] The West Wing - Welcome to Wherever You Are
+2523.563000 [S7.Ep16] Gilmore Girls - Will You Be My Lorelai Gilmore
+2583.707000 [S7.Ep16] The West Wing - Election Day
+2486.526000 [S7.Ep17] Gilmore Girls - Gilmore Girls Only
+2557.056000 [S7.Ep17] The West Wing - Election Day, Part II
+2527.067000 [S7.Ep18] Gilmore Girls - Hay Bale Maze
+2594.902000 [S7.Ep18] The West Wing - Requiem
+2536.076000 [S7.Ep19] Gilmore Girls - It's Just Like Riding a Bike
+2610.817000 [S7.Ep19] The West Wing - Transition
+2559.099000 [S7.Ep20] Gilmore Girls - Lorelai Lorelai
+2597.334000 [S7.Ep20] The West Wing - The Last Hurrah
+2498.538000 [S7.Ep21] Gilmore Girls - Unto the Breach
+2605.312000 [S7.Ep21] The West Wing - Institutional Memory
+2554.594000 [S7.Ep22] Gilmore Girls - Bon Voyage
+2592.683000 [S7.Ep22] The West Wing - Tomorrow
+2561.101000 [S7.Ep8] Gilmore Girls - Introducing Lorelai Planetarium
+2589.483000 [S7.Ep8] The West Wing - Undecideds
+2557.097000 [S7.Ep9] Gilmore Girls - Knit, People, Knit
+2605.014000 [S7.Ep9] The West Wing - The Wedding
+1326.304000 [S8.Ep18] The Office (U.S.) - Last Day in Florida
+1326.117000 [S8.Ep19] The Office (U.S.) - Get the Girl
+1326.176000 [S8.Ep20] The Office (U.S.) - Welcome Party
+1325.700000 [S8.Ep21] The Office (U.S.) - Angry Andy
+1326.409000 [S8.Ep22] The Office (U.S.) - Fundraiser
+1324.416000 [S8.Ep23] The Office (U.S.) - Turf War
+1326.176000 [S8.Ep24] The Office (U.S.) - Free Family Portrait Studio
+1319.648000 [S9.Ep10] The Office (U.S.) - Lice
+1316.992000 [S9.Ep11] The Office (U.S.) - Suit Warehouse
+1319.616000 [S9.Ep12] The Office (U.S.) - Customer Loyalty
+1318.624000 [S9.Ep13] The Office (U.S.) - Junior Salesman
+1318.560000 [S9.Ep14] The Office (U.S.) - Vandalism
+1317.856000 [S9.Ep15] The Office (U.S.) - Couple's Discount
+2491.360000 [S9.Ep16] The Office (U.S.) - Moving On
+1318.880000 [S9.Ep17] The Office (U.S.) - The Farm
+1318.816000 [S9.Ep18] The Office (U.S.) - Promos
+1317.280000 [S9.Ep19] The Office (U.S.) - Stairmageddon
+1323.776000 [S9.Ep1] The Office (U.S.) - New Guys
+1318.880000 [S9.Ep20] The Office (U.S.) - Paper Airplane
+2424.096000 [S9.Ep21] The Office (U.S.) - Livin' the Dream
+2591.392000 [S9.Ep22] The Office (U.S.) - A.A.R.M
+3049.664000 [S9.Ep23] The Office (U.S.) - Finale
+1321.824000 [S9.Ep2] The Office (U.S.) - Roy's Wedding
+1324.736000 [S9.Ep3] The Office (U.S.) - Andy's Ancestry
+1317.952000 [S9.Ep4] The Office (U.S.) - Work Bus
+1318.944000 [S9.Ep5] The Office (U.S.) - Here Comes Treble
+1319.936000 [S9.Ep6] The Office (U.S.) - The Boat
+1319.104000 [S9.Ep7] The Office (U.S.) - The Whale
+1318.240000 [S9.Ep8] The Office (U.S.) - The Target
+1319.072000 [S9.Ep9] The Office (U.S.) - Dwight Christmas
+1837.760000 [V1.Ep10] Dear White People - Chapter X
+2022.432000 [V1.Ep1] Dear White People - Chapter I
+1786.208000 [V1.Ep2] Dear White People - Chapter II
+1357.792000 [V1.Ep3] Dear White People - Chapter III
+1690.112000 [V1.Ep4] Dear White People - Chapter IV
+1598.016000 [V1.Ep5] Dear White People - Chapter V
+1632.064000 [V1.Ep6] Dear White People - Chapter VI
+1394.304000 [V1.Ep7] Dear White People - Chapter VII
+1534.944000 [V1.Ep8] Dear White People - Chapter VIII
+1292.224000 [V1.Ep9] Dear White People - Chapter IX
+2148.522000 [V2.Ep10] Dear White People - Chapter X
+1812.192000 [V2.Ep2] Dear White People - Chapter II
+1710.084000 [V2.Ep3] Dear White People - Chapter III
+1770.144000 [V2.Ep4] Dear White People - Chapter IV
+1714.088000 [V2.Ep5] Dear White People - Chapter V
+1971.845000 [V2.Ep6] Dear White People - Chapter VI
+1891.265000 [V2.Ep7] Dear White People - Chapter VII
+1931.805000 [V2.Ep8] Dear White People - Chapter VIII
+1759.633000 [V2.Ep9] Dear White People - Chapter IX
+2181.555000 [V3.Ep10] Dear White People - Chapter X
+1872.246000 [V3.Ep2] Dear White People - Chapter II
+1960.834000 [V3.Ep3] Dear White People - Chapter III
+1598.973000 [V3.Ep4] Dear White People - Chapter IV
+1748.122000 [V3.Ep5] Dear White People - Chapter V
+1777.151000 [V3.Ep6] Dear White People - Chapter VI
+2017.391000 [V3.Ep7] Dear White People - Chapter VII
+1857.231000 [V3.Ep8] Dear White People - Chapter VIII
+1557.431000 [V3.Ep9] Dear White People - Chapter IX

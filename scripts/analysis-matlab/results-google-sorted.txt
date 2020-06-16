@@ -1,0 +1,509 @@
+[V1.Ep1] Dear White People - Chapter I::camera3::651
+[V1.Ep1] Dear White People - Chapter I::camera4::1674
+[V1.Ep2] Dear White People - Chapter II::camera1::1050 1575
+[V1.Ep2] Dear White People - Chapter II::camera2::1575
+[V3.Ep2] Dear White People - Chapter II::camera2::1692
+[V3.Ep2] Dear White People - Chapter II::camera3::237
+[V1.Ep2] Dear White People - Chapter II::camera4::1575 67
+[V3.Ep2] Dear White People - Chapter II::camera4::1693
+[V3.Ep3] Dear White People - Chapter III::camera4::1464
+[V1.Ep4] Dear White People - Chapter IV::camera2::289
+[V3.Ep4] Dear White People - Chapter IV::camera2::649
+[V3.Ep9] Dear White People - Chapter IX::camera1::139
+[V1.Ep9] Dear White People - Chapter IX::camera1::668
+[V1.Ep9] Dear White People - Chapter IX::camera2::900
+[V2.Ep9] Dear White People - Chapter IX::camera4::1566
+[V2.Ep5] Dear White People - Chapter V::camera1::542
+[V1.Ep5] Dear White People - Chapter V::camera1::664
+[V2.Ep5] Dear White People - Chapter V::camera2::542
+[V2.Ep5] Dear White People - Chapter V::camera3::542 542
+[V2.Ep5] Dear White People - Chapter V::camera4::542
+[V2.Ep5] Dear White People - Chapter V::traffic1::542
+[V2.Ep5] Dear White People - Chapter V::traffic2::541
+[V2.Ep5] Dear White People - Chapter V::traffic3::542
+[V2.Ep5] Dear White People - Chapter V::traffic4::539
+[V3.Ep6] Dear White People - Chapter VI::camera2::1167
+[V2.Ep6] Dear White People - Chapter VI::camera2::1539
+[V3.Ep6] Dear White People - Chapter VI::camera4::357 263
+[V3.Ep7] Dear White People - Chapter VII::camera1::1426
+[V2.Ep7] Dear White People - Chapter VII::camera1::520
+[V2.Ep7] Dear White People - Chapter VII::camera2::520
+[V3.Ep7] Dear White People - Chapter VII::camera3::1553 294
+[V3.Ep7] Dear White People - Chapter VII::camera4::1427
+[V3.Ep8] Dear White People - Chapter VIII::camera2::89
+[V3.Ep8] Dear White People - Chapter VIII::camera3::88
+[V2.Ep10] Dear White People - Chapter X::camera2::1285 1287
+[V1.Ep10] Dear White People - Chapter X::camera2::142
+[V3.Ep10] Dear White People - Chapter X::camera2::757
+[V1.Ep10] Dear White People - Chapter X::camera3::1135
+[V3.Ep10] Dear White People - Chapter X::camera3::1704 1704 1704 1704 1704
+[V1.Ep10] Dear White People - Chapter X::camera4::150
+[V3.Ep10] Dear White People - Chapter X::camera4::757
+[S4.Ep7] Friday Night Tykes - Ain't Gotta Cheat Us to Beat Us::camera1::373 1031
+[S4.Ep7] Friday Night Tykes - Ain't Gotta Cheat Us to Beat Us::camera2::1522 1031
+[S4.Ep7] Friday Night Tykes - Ain't Gotta Cheat Us to Beat Us::camera3::1521 1096 1099
+[S4.Ep7] Friday Night Tykes - Ain't Gotta Cheat Us to Beat Us::camera4::1096
+[S4.Ep7] Friday Night Tykes - Ain't Gotta Cheat Us to Beat Us::traffic2::1522
+[S4.Ep7] Friday Night Tykes - Ain't Gotta Cheat Us to Beat Us::traffic3::1521
+[S3.Ep10] Friday Night Tykes - Babies from Texas::camera1::120 2044
+[S3.Ep10] Friday Night Tykes - Babies from Texas::camera2::120 2442
+[S3.Ep10] Friday Night Tykes - Babies from Texas::camera3::120 2044
+[S3.Ep10] Friday Night Tykes - Babies from Texas::camera4::120 278
+[S4.Ep9] Friday Night Tykes - But My Mama Ain't Here::camera3::390
+[S4.Ep9] Friday Night Tykes - But My Mama Ain't Here::camera4::380 390
+[S4.Ep3] Friday Night Tykes - God Don't Like Ugly::camera2::89
+[S4.Ep2] Friday Night Tykes - Home of the Gods::camera1::289 956
+[S4.Ep2] Friday Night Tykes - Home of the Gods::camera2::471
+[S4.Ep2] Friday Night Tykes - Home of the Gods::camera3::639
+[S4.Ep10] Friday Night Tykes - If You Wanna Show, I'll Give You One::camera1::15 2139
+[S4.Ep10] Friday Night Tykes - If You Wanna Show, I'll Give You One::camera2::15 2139
+[S4.Ep10] Friday Night Tykes - If You Wanna Show, I'll Give You One::camera3::1516
+[S4.Ep10] Friday Night Tykes - If You Wanna Show, I'll Give You One::camera4::948
+[S4.Ep10] Friday Night Tykes - If You Wanna Show, I'll Give You One::traffic4::945
+[S3.Ep6] Friday Night Tykes - Jesus in Football Cleats::camera1::1443
+[S3.Ep6] Friday Night Tykes - Jesus in Football Cleats::camera3::463
+[S3.Ep6] Friday Night Tykes - Jesus in Football Cleats::traffic3::462
+[S4.Ep8] Friday Night Tykes - Ruined by Adults::camera1::1036
+[S4.Ep8] Friday Night Tykes - Ruined by Adults::camera2::2351 122 1213
+[S4.Ep8] Friday Night Tykes - Ruined by Adults::camera4::122
+[S3.Ep8] Friday Night Tykes - Two Danny Devitos::camera3::538
+[S4.Ep4] Friday Night Tykes - We All Failed Him::camera1::1313
+[S3.Ep7] Friday Night Tykes - When the Rabbit Has the Gun::camera2::1021 599
+[S3.Ep7] Friday Night Tykes - When the Rabbit Has the Gun::camera4::930
+[S7.Ep14] Gilmore Girls - Farewell, My Pet::camera1::1399
+[S7.Ep14] Gilmore Girls - Farewell, My Pet::camera2::777
+[S7.Ep14] Gilmore Girls - Farewell, My Pet::camera3::1915 777 2276
+[S7.Ep14] Gilmore Girls - Farewell, My Pet::camera4::732 777
+[S7.Ep14] Gilmore Girls - Farewell, My Pet::traffic2::774
+[S7.Ep14] Gilmore Girls - Farewell, My Pet::traffic3::775 2277
+[S7.Ep14] Gilmore Girls - Farewell, My Pet::traffic4::774
+[S7.Ep17] Gilmore Girls - Gilmore Girls Only::camera2::1993
+[S7.Ep17] Gilmore Girls - Gilmore Girls Only::camera3::2236
+[S7.Ep18] Gilmore Girls - Hay Bale Maze::camera2::2064 2230
+[S7.Ep18] Gilmore Girls - Hay Bale Maze::camera3::2373 1519 1795
+[S7.Ep18] Gilmore Girls - Hay Bale Maze::camera4::2373 1519
+[S7.Ep13] Gilmore Girls - I'd Rather Be in Philadelphia::camera1::552
+[S7.Ep13] Gilmore Girls - I'd Rather Be in Philadelphia::camera2::1760 552
+[S7.Ep13] Gilmore Girls - I'd Rather Be in Philadelphia::camera3::552 561
+[S7.Ep13] Gilmore Girls - I'd Rather Be in Philadelphia::camera4::1909 552
+[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar::camera1::2488 56 69 1411 1887 73
+[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar::camera2::2488 56 1411 2287
+[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar::camera3::2488 56 1411
+[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar::camera4::56 68 1411 72
+[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar::traffic1::1413 1413
+[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar::traffic2::1396
+[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar::traffic3::1412
+[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar::traffic4::1411
+[S7.Ep8] Gilmore Girls - Introducing Lorelai Planetarium::camera2::2412
+[S7.Ep19] Gilmore Girls - It's Just Like Riding a Bike::camera2::1242
+[S7.Ep19] Gilmore Girls - It's Just Like Riding a Bike::camera4::1242
+[S7.Ep19] Gilmore Girls - It's Just Like Riding a Bike::traffic2::1243
+[S7.Ep19] Gilmore Girls - It's Just Like Riding a Bike::traffic4::1239
+[S7.Ep9] Gilmore Girls - Knit, People, Knit::camera1::1178
+[S7.Ep9] Gilmore Girls - Knit, People, Knit::camera2::357 528
+[S7.Ep9] Gilmore Girls - Knit, People, Knit::camera3::356
+[S7.Ep9] Gilmore Girls - Knit, People, Knit::camera4::356 1195
+[S7.Ep20] Gilmore Girls - Lorelai Lorelai::camera2::553
+[S7.Ep20] Gilmore Girls - Lorelai Lorelai::camera4::1236 1842
+[S7.Ep10] Gilmore Girls - Merry Fisticuffs::camera1::1456
+[S7.Ep10] Gilmore Girls - Merry Fisticuffs::camera2::19
+[S7.Ep10] Gilmore Girls - Merry Fisticuffs::camera3::19 23
+[S7.Ep11] Gilmore Girls - Santa's Secret Stuff::camera1::119 2169
+[S7.Ep11] Gilmore Girls - Santa's Secret Stuff::camera2::119
+[S7.Ep11] Gilmore Girls - Santa's Secret Stuff::camera3::408 119
+[S7.Ep11] Gilmore Girls - Santa's Secret Stuff::camera4::119
+[S7.Ep12] Gilmore Girls - To Whom It May Concern::camera1::1845
+[S7.Ep12] Gilmore Girls - To Whom It May Concern::camera2::709 1021 1152
+[S7.Ep12] Gilmore Girls - To Whom It May Concern::camera3::669
+[S7.Ep12] Gilmore Girls - To Whom It May Concern::camera4::709 1021
+[S7.Ep21] Gilmore Girls - Unto the Breach::camera1::176
+[S7.Ep21] Gilmore Girls - Unto the Breach::camera2::176
+[S7.Ep21] Gilmore Girls - Unto the Breach::camera4::1165
+[S7.Ep16] Gilmore Girls - Will You Be My Lorelai Gilmore::camera1::1340 669 530
+[S7.Ep16] Gilmore Girls - Will You Be My Lorelai Gilmore::camera2::669 977
+[S7.Ep16] Gilmore Girls - Will You Be My Lorelai Gilmore::camera3::530
+[S7.Ep16] Gilmore Girls - Will You Be My Lorelai Gilmore::camera4::1340 1831 586
+[S7.Ep16] Gilmore Girls - Will You Be My Lorelai Gilmore::traffic1::529
+[S7.Ep16] Gilmore Girls - Will You Be My Lorelai Gilmore::traffic3::528
+[S3.Ep3] Greenleaf - Chain of Command::camera4::1750
+[S3.Ep3] Greenleaf - Chain of Command::traffic4::1747
+[S3.Ep5] Greenleaf - Closing Doors::camera1::74
+[S3.Ep5] Greenleaf - Closing Doors::camera2::2419
+[S3.Ep5] Greenleaf - Closing Doors::camera3::1009
+[S3.Ep8] Greenleaf - Dea Abscondita::camera1::7 373
+[S3.Ep8] Greenleaf - Dea Abscondita::camera2::542 7
+[S3.Ep8] Greenleaf - Dea Abscondita::camera3::903 906
+[S3.Ep8] Greenleaf - Dea Abscondita::camera4::1934 542 388
+[S3.Ep8] Greenleaf - Dea Abscondita::traffic2::540
+[S3.Ep9] Greenleaf - Runaway Train::camera1::432
+[S3.Ep9] Greenleaf - Runaway Train::camera2::403 1270
+[S3.Ep9] Greenleaf - Runaway Train::camera3::1270
+[S3.Ep9] Greenleaf - Runaway Train::camera4::1270
+[S3.Ep6] Greenleaf - She Changes Everything::camera1::236
+[S3.Ep6] Greenleaf - She Changes Everything::camera2::1233 433
+[S3.Ep1] Greenleaf - Strange Currents::camera1::299
+[S3.Ep1] Greenleaf - Strange Currents::camera2::299
+[S3.Ep1] Greenleaf - Strange Currents::camera3::880 789
+[S3.Ep1] Greenleaf - Strange Currents::traffic3::788
+[S3.Ep7] Greenleaf - That Was Then::camera1::661 1871
+[S3.Ep7] Greenleaf - That Was Then::camera2::1698 661
+[S3.Ep7] Greenleaf - That Was Then::camera4::386 1657
+[S3.Ep7] Greenleaf - That Was Then::traffic1::661
+[S3.Ep7] Greenleaf - That Was Then::traffic2::659
+[S3.Ep11] Greenleaf - The End Is Near::camera1::1270
+[S3.Ep11] Greenleaf - The End Is Near::camera2::287 2182
+[S3.Ep11] Greenleaf - The End Is Near::camera3::2182
+[S3.Ep11] Greenleaf - The End Is Near::camera4::2182 846
+[S3.Ep13] Greenleaf - The New Life::camera1::254
+[S3.Ep13] Greenleaf - The New Life::camera2::611
+[S2.Ep16] Greenleaf - The Pearl::camera1::1315 612
+[S2.Ep16] Greenleaf - The Pearl::camera2::1776 612 1339
+[S2.Ep16] Greenleaf - The Pearl::camera3::333
+[S2.Ep16] Greenleaf - The Pearl::camera4::333
+[S3.Ep10] Greenleaf - The Promised Land::camera1::1884
+[S3.Ep10] Greenleaf - The Promised Land::camera2::1619 1884 2225
+[S3.Ep10] Greenleaf - The Promised Land::camera3::1619 1452
+[S3.Ep10] Greenleaf - The Promised Land::traffic3::1443
+[S3.Ep2] Greenleaf - The Space Between::camera1::2101
+[S3.Ep2] Greenleaf - The Space Between::camera2::2101 2103 493
+[S3.Ep2] Greenleaf - The Space Between::camera3::2187 2189 2191
+[S3.Ep2] Greenleaf - The Space Between::camera4::2101 2103
+[S3.Ep4] Greenleaf - The Underdog::camera1::1018
+[S3.Ep4] Greenleaf - The Underdog::camera4::1018
+[S3.Ep4] Greenleaf - The Underdog::traffic1::1015
+[S3.Ep4] Greenleaf - The Underdog::traffic4::1016
+[S2.Ep15] Greenleaf - Two by Two::camera3::55
+[S15.Ep18] Grey's Anatomy - Add It Up::camera1::1460 1986
+[S15.Ep18] Grey's Anatomy - Add It Up::camera2::1470 1170 1986
+[S15.Ep17] Grey's Anatomy - And Dream of Sheep::camera1::2035
+[S15.Ep17] Grey's Anatomy - And Dream of Sheep::camera2::2002 2005
+[S15.Ep17] Grey's Anatomy - And Dream of Sheep::camera3::317 2002 2004 1845
+[S15.Ep17] Grey's Anatomy - And Dream of Sheep::camera4::317 998 2002 179
+[S15.Ep16] Grey's Anatomy - Blood and Water::camera1::505 199
+[S15.Ep16] Grey's Anatomy - Blood and Water::camera2::505 404
+[S15.Ep16] Grey's Anatomy - Blood and Water::camera3::1606 505 713 830
+[S15.Ep16] Grey's Anatomy - Blood and Water::traffic1::198
+[S15.Ep16] Grey's Anatomy - Blood and Water::traffic2::403
+[S15.Ep24] Grey's Anatomy - Drawn to the Blood::camera1::1198
+[S15.Ep24] Grey's Anatomy - Drawn to the Blood::camera2::647
+[S15.Ep12] Grey's Anatomy - Girlfriend in a Coma::camera3::153
+[S15.Ep12] Grey's Anatomy - Girlfriend in a Coma::camera4::929 153
+[S15.Ep22] Grey's Anatomy - Head Over High Heels::camera2::1527
+[S15.Ep22] Grey's Anatomy - Head Over High Heels::camera4::1317
+[S15.Ep13] Grey's Anatomy - I Walk the Line::camera1::2 11 13 20 22 31 40 49 51 58 60 69 78 87 89 98 107 116 118 125 127 136 145 154 156 163 165 174 183 192 194 201 203 212 221 223 230 232 241 250 259 261 268 270 279 288 297 299 308 317 326 328 335 337 346 355 364 366 373 375 384 393 402 404 413 422 431 440 442 451 460 469 471 480 489 498 507 509 518 527 536 545 547 556 565 574 576 583 585 594 603 612 614 623 632 641 650 652 661 670 679 681 690 699 708 717 719 728 737 746 755 757 766 775 784 786 793 795 804 813 822 824 833 842 851 853 860 862 871 880 889 891 898 900 909 918 927 929 938 947 956 965 967 976 985 994 996 1005 1014 1023 1032 1034 1043 1052 1061 1070 1072 1081 1090 1099 1101 1108 1110 1119 1128 1137 1139 1148 1157 1166 1168 1175 1177 1186 1195 1204 1206 1213 1215 1224 1233 1242 1244 1253 1262 1271 1280 1282 1291 1300 1309 1311 1318 1320 1329 1338 1347 1349 1358 1367 1376 1378 1385 1387 1396 1405 1414 1416 1423 1425 1434 1443 1452 1454 1463 1472 1481 1490 1492 1501 1510 1519 1528 1530 1539 1548 1557 1559 1566 1568 1577 1586 1595 1597 1606 1615 1624 1626 1633 1635 1644 1653 1662 1664 1673 1682 1691 1700 1702 1711 1720 1729 1738 1740 1749 1758 1767 1769 1842 1845 1850 1859 1868 1870 1879 1888 1897 1906 1908 1917 1926 1935 1937 1946 1955 1964 1973 1975 1984 1993 2002 2004 2011 2013 2022 2031 2040 2042 2049 2051 2060 2069 2078 2080 2089 2098 2107 2116 2118 2127 2136 2145 2147 2154 2156 2165 2174 2183 2185 2192 2194 2203 2212 2221 2223 2232 2241 2250 2259 2261 2270 2279 2288 2290 2299 2308 2317 2326 2328 2337 2346 2355 2357 2364 2366 2375 2384 2393 2395 2402 2404 2413 2422 2431 2433 2442 2451 2460 2469 2471 2480 2489 2498 2500 2507 2509 2518 2527 2536 2538 2547 2556 2565 2574 2576 2585 2594 2603 2605
+[S15.Ep14] Grey's Anatomy - I Want a New Drug::camera2::1543 1916
+[S15.Ep14] Grey's Anatomy - I Want a New Drug::camera3::1544 590
+[S15.Ep14] Grey's Anatomy - I Want a New Drug::camera4::1543 1270
+[S15.Ep25] Grey's Anatomy - Jump into the Fog::camera4::2227
+[S15.Ep19] Grey's Anatomy - Silent All These Years::camera1::722
+[S15.Ep19] Grey's Anatomy - Silent All These Years::camera2::722
+[S15.Ep20] Grey's Anatomy - The Whole Package::camera3::2509
+[S15.Ep20] Grey's Anatomy - The Whole Package::traffic3::2512
+[S15.Ep11] Grey's Anatomy - The Winner Takes It All::camera4::2210
+[S15.Ep15] Grey's Anatomy - We Didn't Start the Fire::camera1::300 303 427
+[S15.Ep15] Grey's Anatomy - We Didn't Start the Fire::camera2::487 489 1120 1630
+[S15.Ep15] Grey's Anatomy - We Didn't Start the Fire::camera3::1262
+[S15.Ep15] Grey's Anatomy - We Didn't Start the Fire::camera4::1120 1631
+[S15.Ep15] Grey's Anatomy - We Didn't Start the Fire::traffic2::1632
+[S15.Ep15] Grey's Anatomy - We Didn't Start the Fire::traffic4::1627
+[S15.Ep23] Grey's Anatomy - What I Did for Love::camera1::653
+[S15.Ep23] Grey's Anatomy - What I Did for Love::camera2::653
+[S15.Ep23] Grey's Anatomy - What I Did for Love::camera3::2109
+[S5.Ep7] Jane The Virgin - Chapter Eighty-Eight::camera3::587 564
+[S5.Ep7] Jane The Virgin - Chapter Eighty-Eight::camera4::1867 1826
+[S5.Ep8] Jane The Virgin - Chapter Eighty-Nine::camera1::2473
+[S5.Ep8] Jane The Virgin - Chapter Eighty-Nine::camera2::1464 2473
+[S5.Ep8] Jane The Virgin - Chapter Eighty-Nine::camera3::6 2473
+[S5.Ep8] Jane The Virgin - Chapter Eighty-Nine::camera4::703 2473
+[S5.Ep6] Jane The Virgin - Chapter Eighty-Seven::camera1::381 2054 2059 629 1227
+[S5.Ep6] Jane The Virgin - Chapter Eighty-Seven::camera2::1251 2148
+[S5.Ep6] Jane The Virgin - Chapter Eighty-Seven::camera3::690
+[S5.Ep5] Jane The Virgin - Chapter Eighty-Six::camera1::1183
+[S5.Ep5] Jane The Virgin - Chapter Eighty-Six::camera2::1183 1186
+[S5.Ep5] Jane The Virgin - Chapter Eighty-Six::camera4::1079
+[S5.Ep17] Jane The Virgin - Chapter Ninety-Eight::camera2::232
+[S5.Ep17] Jane The Virgin - Chapter Ninety-Eight::camera4::1128
+[S5.Ep14] Jane The Virgin - Chapter Ninety-Five::camera1::688
+[S5.Ep14] Jane The Virgin - Chapter Ninety-Five::camera2::123
+[S5.Ep14] Jane The Virgin - Chapter Ninety-Five::camera3::1398
+[S5.Ep13] Jane The Virgin - Chapter Ninety-Four::camera1::1307
+[S5.Ep13] Jane The Virgin - Chapter Ninety-Four::camera2::1112 1307
+[S5.Ep13] Jane The Virgin - Chapter Ninety-Four::camera4::1028 1307
+[S5.Ep13] Jane The Virgin - Chapter Ninety-Four::traffic1::1307
+[S5.Ep13] Jane The Virgin - Chapter Ninety-Four::traffic2::1308
+[S5.Ep13] Jane The Virgin - Chapter Ninety-Four::traffic4::1294
+[S5.Ep18] Jane The Virgin - Chapter Ninety-Nine::camera4::805
+[S5.Ep10] Jane The Virgin - Chapter Ninety-One::camera2::2299
+[S5.Ep16] Jane The Virgin - Chapter Ninety-Seven::camera1::149 1123 1269
+[S5.Ep16] Jane The Virgin - Chapter Ninety-Seven::camera2::149 1123 1144
+[S5.Ep16] Jane The Virgin - Chapter Ninety-Seven::camera3::1123 1126 1152 2336 1394
+[S5.Ep16] Jane The Virgin - Chapter Ninety-Seven::camera4::1123 149
+[S5.Ep15] Jane The Virgin - Chapter Ninety-Six::camera1::300
+[S5.Ep15] Jane The Virgin - Chapter Ninety-Six::camera2::838
+[S5.Ep15] Jane The Virgin - Chapter Ninety-Six::camera3::300
+[S5.Ep12] Jane The Virgin - Chapter Ninety-Three::camera3::2
+[S5.Ep11] Jane The Virgin - Chapter Ninety-Two::camera2::1618
+[S5.Ep9] Jane The Virgin - Chapter Ninety::camera1::1079 1322 1774
+[S5.Ep9] Jane The Virgin - Chapter Ninety::camera2::869 1080
+[S5.Ep9] Jane The Virgin - Chapter Ninety::camera3::282 289 1484 1490 1493 1314
+[S5.Ep9] Jane The Virgin - Chapter Ninety::camera4::1182 1186 1078
+[S5.Ep9] Jane The Virgin - Chapter Ninety::traffic1::1079
+[S5.Ep9] Jane The Virgin - Chapter Ninety::traffic2::1080
+[S5.Ep9] Jane The Virgin - Chapter Ninety::traffic4::1079
+[S5.Ep19] Jane The Virgin - Chapter One Hundred::camera3::129 136
+[S2.Ep10] Narcos - Al Fin Cayó!::camera1::26
+[S3.Ep6] Narcos - Best Laid Plans::camera1::2033
+[S3.Ep6] Narcos - Best Laid Plans::camera2::661
+[S3.Ep6] Narcos - Best Laid Plans::camera3::1467
+[S3.Ep6] Narcos - Best Laid Plans::camera4::3015
+[S3.Ep4] Narcos - Checkmate::camera1::133
+[S3.Ep4] Narcos - Checkmate::camera2::2613 798
+[S3.Ep4] Narcos - Checkmate::camera4::444 3058
+[S2.Ep8] Narcos - Exit El Patrón::camera1::1397
+[S2.Ep8] Narcos - Exit El Patrón::camera2::1397
+[S2.Ep8] Narcos - Exit El Patrón::camera3::1397
+[S2.Ep8] Narcos - Exit El Patrón::camera4::1397
+[S3.Ep3] Narcos - Follow the Money::camera1::623 626 629 770
+[S3.Ep3] Narcos - Follow the Money::camera2::2935 624 628 771
+[S3.Ep3] Narcos - Follow the Money::camera3::489 492 505
+[S3.Ep10] Narcos - Going Back to Cali::camera1::1581
+[S3.Ep10] Narcos - Going Back to Cali::camera2::1581
+[S3.Ep10] Narcos - Going Back to Cali::camera3::415
+[S3.Ep5] Narcos - MRO::camera1::679 1334
+[S3.Ep5] Narcos - MRO::camera3::751
+[S3.Ep5] Narcos - MRO::camera4::2629
+[S3.Ep5] Narcos - MRO::traffic1::679 1336
+[S2.Ep9] Narcos - Nuestra Finca::camera1::469 2615
+[S2.Ep9] Narcos - Nuestra Finca::camera2::2615
+[S2.Ep9] Narcos - Nuestra Finca::camera3::442 469
+[S2.Ep9] Narcos - Nuestra Finca::camera4::469
+[S3.Ep7] Narcos - Sin Salida::camera1::950
+[S3.Ep7] Narcos - Sin Salida::camera2::950 1892
+[S3.Ep7] Narcos - Sin Salida::camera4::487 149
+[S3.Ep2] Narcos - The Cali KGB::camera1::1325 1932 523 391
+[S3.Ep2] Narcos - The Cali KGB::camera2::1932
+[S3.Ep9] Narcos - Todos Los Hombres del Presidente::camera2::791 377 723
+[S3.Ep9] Narcos - Todos Los Hombres del Presidente::camera3::295 723
+[S3.Ep15] Riverdale - Chapter Fifty - 'American Dreams'::camera2::1937
+[S3.Ep15] Riverdale - Chapter Fifty - 'American Dreams'::camera4::1967
+[S3.Ep15] Riverdale - Chapter Fifty - 'American Dreams'::traffic4::1969
+[S3.Ep20] Riverdale - Chapter Fifty-Five - 'Prom Night'::camera1::668
+[S3.Ep20] Riverdale - Chapter Fifty-Five - 'Prom Night'::camera2::668
+[S3.Ep20] Riverdale - Chapter Fifty-Five - 'Prom Night'::camera3::1755
+[S3.Ep19] Riverdale - Chapter Fifty-Four - “Fear the Reaper”::camera1::1151
+[S3.Ep19] Riverdale - Chapter Fifty-Four - “Fear the Reaper”::camera3::1852 316
+[S3.Ep16] Riverdale - Chapter Fifty-One - 'Big Fun'::camera3::1118
+[S3.Ep22] Riverdale - Chapter Fifty-Seven - 'Survive the Night'::camera1::528
+[S3.Ep22] Riverdale - Chapter Fifty-Seven - 'Survive the Night'::traffic1::527
+[S3.Ep21] Riverdale - Chapter Fifty-Six - 'The Dark Secret of Harvest House'::camera3::5 13
+[S3.Ep21] Riverdale - Chapter Fifty-Six - 'The Dark Secret of Harvest House'::camera4::165
+[S3.Ep18] Riverdale - Chapter Fifty-Three - 'Jawbreaker'::camera1::1988
+[S3.Ep18] Riverdale - Chapter Fifty-Three - 'Jawbreaker'::camera2::1776 1988
+[S3.Ep18] Riverdale - Chapter Fifty-Three - 'Jawbreaker'::camera4::781 784 1987
+[S3.Ep18] Riverdale - Chapter Fifty-Three - 'Jawbreaker'::traffic2::1778
+[S3.Ep17] Riverdale - Chapter Fifty-Two - “The Raid”::camera1::2396
+[S3.Ep17] Riverdale - Chapter Fifty-Two - “The Raid”::camera2::1119
+[S3.Ep17] Riverdale - Chapter Fifty-Two - “The Raid”::camera3::312
+[S3.Ep13] Riverdale - Chapter Forty-Eight - 'Requiem for a Welterweight'::camera1::2374
+[S3.Ep13] Riverdale - Chapter Forty-Eight - 'Requiem for a Welterweight'::camera2::126 1590
+[S3.Ep13] Riverdale - Chapter Forty-Eight - 'Requiem for a Welterweight'::traffic1::2377
+[S3.Ep10] Riverdale - Chapter Forty-Five - 'The Stranger'::camera2::651
+[S3.Ep9] Riverdale - Chapter Forty-Four - 'No Exit'::camera1::1678
+[S3.Ep9] Riverdale - Chapter Forty-Four - 'No Exit'::camera3::1327
+[S3.Ep9] Riverdale - Chapter Forty-Four - 'No Exit'::camera4::353
+[S3.Ep14] Riverdale - Chapter Forty-Nine - 'Fire Walk With Me'::camera1::554 671
+[S3.Ep14] Riverdale - Chapter Forty-Nine - 'Fire Walk With Me'::camera2::554 671
+[S3.Ep14] Riverdale - Chapter Forty-Nine - 'Fire Walk With Me'::camera3::671
+[S3.Ep12] Riverdale - Chapter Forty-Seven - 'Bizarrodale'::camera1::1466 1354 2280 2283
+[S3.Ep12] Riverdale - Chapter Forty-Seven - 'Bizarrodale'::camera3::2282
+[S3.Ep12] Riverdale - Chapter Forty-Seven - 'Bizarrodale'::camera4::2282 1435
+[S3.Ep12] Riverdale - Chapter Forty-Seven - 'Bizarrodale'::traffic2::501
+[S3.Ep11] Riverdale - Chapter Forty-Six - 'The Red Dahlia'::camera1::602 1998
+[S3.Ep11] Riverdale - Chapter Forty-Six - 'The Red Dahlia'::camera4::1028
+[S3.Ep8] Riverdale - Chapter Forty-Three - 'Outbreak'::camera1::692 383 432 1509
+[S3.Ep8] Riverdale - Chapter Forty-Three - 'Outbreak'::camera2::432
+[S3.Ep8] Riverdale - Chapter Forty-Three - 'Outbreak'::camera3::531 1966
+[S3.Ep8] Riverdale - Chapter Forty-Three - 'Outbreak'::traffic1::382
+[S11.Ep24] The Big Bang Theory - The Bow Tie Asymmetry::camera1::761 761 761
+[S11.Ep24] The Big Bang Theory - The Bow Tie Asymmetry::camera2::3
+[S11.Ep24] The Big Bang Theory - The Bow Tie Asymmetry::camera3::278
+[S12.Ep23] The Big Bang Theory - The Change Constant::camera1::289 291 559
+[S12.Ep23] The Big Bang Theory - The Change Constant::camera3::289 291 293 296
+[S12.Ep23] The Big Bang Theory - The Change Constant::traffic1::559
+[S12.Ep9] The Big Bang Theory - The Citation Negation::camera1::992
+[S11.Ep21] The Big Bang Theory - The Comet Polarization::camera1::745 745 745 745
+[S12.Ep17] The Big Bang Theory - The Conference Valuation::camera3::674
+[S12.Ep17] The Big Bang Theory - The Conference Valuation::camera4::997 721 357
+[S12.Ep1] The Big Bang Theory - The Conjugal Configuration::camera1::412
+[S12.Ep16] The Big Bang Theory - The D & D Vortex::camera1::1077
+[S12.Ep16] The Big Bang Theory - The D & D Vortex::camera2::1077
+[S12.Ep16] The Big Bang Theory - The D & D Vortex::camera3::1077
+[S12.Ep16] The Big Bang Theory - The D & D Vortex::camera4::1077
+[S12.Ep16] The Big Bang Theory - The D & D Vortex::traffic1::1077
+[S12.Ep16] The Big Bang Theory - The D & D Vortex::traffic2::1078
+[S12.Ep16] The Big Bang Theory - The D & D Vortex::traffic3::1077
+[S12.Ep16] The Big Bang Theory - The D & D Vortex::traffic4::1078
+[S12.Ep15] The Big Bang Theory - The Donation Oscillation::camera3::115
+[S12.Ep7] The Big Bang Theory - The Grant Allocation Derivation::camera1::520 659
+[S12.Ep7] The Big Bang Theory - The Grant Allocation Derivation::camera2::72
+[S12.Ep7] The Big Bang Theory - The Grant Allocation Derivation::camera3::159
+[S12.Ep7] The Big Bang Theory - The Grant Allocation Derivation::camera4::659
+[S12.Ep7] The Big Bang Theory - The Grant Allocation Derivation::traffic1::659
+[S12.Ep7] The Big Bang Theory - The Grant Allocation Derivation::traffic4::657
+[S12.Ep6] The Big Bang Theory - The Imitation Perturbation::camera2::597
+[S12.Ep19] The Big Bang Theory - The Inspiration Deprivation::camera1::461
+[S12.Ep19] The Big Bang Theory - The Inspiration Deprivation::camera2::460
+[S12.Ep19] The Big Bang Theory - The Inspiration Deprivation::camera3::461
+[S12.Ep19] The Big Bang Theory - The Inspiration Deprivation::traffic1::458
+[S12.Ep19] The Big Bang Theory - The Inspiration Deprivation::traffic2::459
+[S12.Ep19] The Big Bang Theory - The Inspiration Deprivation::traffic3::460
+[S12.Ep22] The Big Bang Theory - The Maternal Conclusion::camera3::1184
+[S11.Ep22] The Big Bang Theory - The Monetary Insufficiency::camera4::318 329
+[S12.Ep21] The Big Bang Theory - The Plagiarism Schism::camera1::834
+[S12.Ep21] The Big Bang Theory - The Plagiarism Schism::camera2::835
+[S12.Ep21] The Big Bang Theory - The Plagiarism Schism::camera3::834
+[S12.Ep21] The Big Bang Theory - The Plagiarism Schism::camera4::834
+[S12.Ep12] The Big Bang Theory - The Propagation Proposition::camera1::1112
+[S12.Ep12] The Big Bang Theory - The Propagation Proposition::camera3::370
+[S12.Ep12] The Big Bang Theory - The Propagation Proposition::traffic3::369
+[S11.Ep23] The Big Bang Theory - The Sibling Realignment::camera1::14 226
+[S11.Ep23] The Big Bang Theory - The Sibling Realignment::camera2::14
+[S11.Ep23] The Big Bang Theory - The Sibling Realignment::camera3::14
+[S11.Ep23] The Big Bang Theory - The Sibling Realignment::camera4::14
+[S12.Ep24] The Big Bang Theory - The Stockholm Syndrome::camera2::1243
+[S12.Ep4] The Big Bang Theory - The Tam Turbulence::camera1::818
+[S12.Ep4] The Big Bang Theory - The Tam Turbulence::camera4::817
+[S11.Ep19] The Big Bang Theory - The Tenant Disassociation::camera3::205
+[S12.Ep10] The Big Bang Theory - The VCR Illumination::camera3::487 594
+[S12.Ep10] The Big Bang Theory - The VCR Illumination::camera4::594
+[S12.Ep10] The Big Bang Theory - The VCR Illumination::traffic3::594
+[S12.Ep10] The Big Bang Theory - The VCR Illumination::traffic4::591
+[S12.Ep2] The Big Bang Theory - The Wedding Gift Wormhole::camera4::438 443
+[S6.Ep3] The L Word - LMFAO::camera1::1152
+[S6.Ep3] The L Word - LMFAO::camera3::1175 1177
+[S6.Ep3] The L Word - LMFAO::camera4::1374 1174
+[S6.Ep6] The L Word - Lactose Intolerant::camera1::1745 1747
+[S6.Ep6] The L Word - Lactose Intolerant::camera2::1061 1745
+[S6.Ep6] The L Word - Lactose Intolerant::camera3::1745 2391
+[S6.Ep6] The L Word - Lactose Intolerant::camera4::548 565 1745
+[S6.Ep7] The L Word - Last Couple Standing::camera1::1557
+[S6.Ep7] The L Word - Last Couple Standing::camera2::2663 2665
+[S6.Ep7] The L Word - Last Couple Standing::camera3::616
+[S6.Ep7] The L Word - Last Couple Standing::camera4::1557
+[S6.Ep7] The L Word - Last Couple Standing::traffic1::1558
+[S6.Ep7] The L Word - Last Couple Standing::traffic4::1547
+[S5.Ep8] The L Word - Laydown the Law::camera1::1031
+[S6.Ep2] The L Word - Least Likely::camera2::2889
+[S6.Ep4] The L Word - Leaving Los Angeles::camera1::2201
+[S6.Ep4] The L Word - Leaving Los Angeles::camera2::2201 174
+[S6.Ep4] The L Word - Leaving Los Angeles::camera3::2202
+[S6.Ep4] The L Word - Leaving Los Angeles::camera4::2201
+[S5.Ep10] The L Word - Lifecycle::camera1::2141
+[S5.Ep10] The L Word - Lifecycle::camera2::2141
+[S5.Ep10] The L Word - Lifecycle::camera3::752 2141
+[S5.Ep10] The L Word - Lifecycle::camera4::2141
+[S5.Ep10] The L Word - Lifecycle::traffic1::2143
+[S5.Ep10] The L Word - Lifecycle::traffic2::2144
+[S5.Ep10] The L Word - Lifecycle::traffic3::2143
+[S5.Ep9] The L Word - Liquid Heat::camera2::335 337 349 313
+[S5.Ep9] The L Word - Liquid Heat::traffic2::297
+[S6.Ep5] The L Word - Litmus Test::camera4::486
+[S6.Ep5] The L Word - Litmus Test::traffic4::482
+[S5.Ep12] The L Word - Loyal and True::camera2::3094 3114
+[S9.Ep22] The Office (U.S.) - A.A.R.M::camera1::751
+[S9.Ep22] The Office (U.S.) - A.A.R.M::camera2::2516
+[S9.Ep22] The Office (U.S.) - A.A.R.M::camera3::494 162
+[S9.Ep3] The Office (U.S.) - Andy's Ancestry::camera1::376
+[S9.Ep3] The Office (U.S.) - Andy's Ancestry::camera3::376
+[S8.Ep21] The Office (U.S.) - Angry Andy::camera2::549
+[S8.Ep21] The Office (U.S.) - Angry Andy::camera3::549
+[S8.Ep21] The Office (U.S.) - Angry Andy::camera4::550
+[S9.Ep15] The Office (U.S.) - Couple's Discount::camera2::1041
+[S9.Ep15] The Office (U.S.) - Couple's Discount::camera3::1041
+[S9.Ep15] The Office (U.S.) - Couple's Discount::camera4::859
+[S9.Ep12] The Office (U.S.) - Customer Loyalty::camera1::1244
+[S9.Ep12] The Office (U.S.) - Customer Loyalty::camera4::653
+[S9.Ep23] The Office (U.S.) - Finale::camera1::448
+[S9.Ep23] The Office (U.S.) - Finale::camera2::448
+[S9.Ep23] The Office (U.S.) - Finale::camera3::1692
+[S9.Ep23] The Office (U.S.) - Finale::camera4::1692 448
+[S8.Ep24] The Office (U.S.) - Free Family Portrait Studio::camera1::975
+[S8.Ep22] The Office (U.S.) - Fundraiser::camera3::1134 604
+[S8.Ep22] The Office (U.S.) - Fundraiser::camera4::1133 604 781
+[S9.Ep5] The Office (U.S.) - Here Comes Treble::camera3::739
+[S8.Ep18] The Office (U.S.) - Last Day in Florida::camera3::310
+[S8.Ep18] The Office (U.S.) - Last Day in Florida::camera4::499
+[S9.Ep10] The Office (U.S.) - Lice::camera2::805
+[S9.Ep21] The Office (U.S.) - Livin' the Dream::camera1::2271
+[S9.Ep21] The Office (U.S.) - Livin' the Dream::camera2::1706 594
+[S9.Ep21] The Office (U.S.) - Livin' the Dream::camera3::2332
+[S9.Ep21] The Office (U.S.) - Livin' the Dream::camera4::2271 2159 2161 2253
+[S9.Ep1] The Office (U.S.) - New Guys::camera3::537
+[S9.Ep20] The Office (U.S.) - Paper Airplane::camera1::92 675
+[S9.Ep20] The Office (U.S.) - Paper Airplane::camera2::92
+[S9.Ep20] The Office (U.S.) - Paper Airplane::camera3::675
+[S9.Ep20] The Office (U.S.) - Paper Airplane::camera4::675
+[S9.Ep18] The Office (U.S.) - Promos::camera1::748
+[S9.Ep18] The Office (U.S.) - Promos::camera2::748
+[S9.Ep18] The Office (U.S.) - Promos::camera4::748
+[S9.Ep19] The Office (U.S.) - Stairmageddon::camera1::208
+[S9.Ep11] The Office (U.S.) - Suit Warehouse::camera2::649
+[S9.Ep11] The Office (U.S.) - Suit Warehouse::camera4::225 248
+[S9.Ep6] The Office (U.S.) - The Boat::camera2::324
+[S9.Ep6] The Office (U.S.) - The Boat::camera4::325
+[S9.Ep17] The Office (U.S.) - The Farm::camera1::253
+[S9.Ep17] The Office (U.S.) - The Farm::camera2::253
+[S9.Ep8] The Office (U.S.) - The Target::camera1::152
+[S9.Ep8] The Office (U.S.) - The Target::camera2::970 152
+[S9.Ep8] The Office (U.S.) - The Target::camera3::153
+[S9.Ep8] The Office (U.S.) - The Target::camera4::152
+[S8.Ep23] The Office (U.S.) - Turf War::camera3::556
+[S8.Ep23] The Office (U.S.) - Turf War::camera4::556
+[S9.Ep14] The Office (U.S.) - Vandalism::camera3::39
+[S9.Ep14] The Office (U.S.) - Vandalism::camera4::39
+[S9.Ep14] The Office (U.S.) - Vandalism::traffic4::1260 1260 1260 1260
+[S9.Ep4] The Office (U.S.) - Work Bus::camera2::1108
+[S7.Ep12] The West Wing - Duck and Cover::camera1::435 756
+[S7.Ep12] The West Wing - Duck and Cover::traffic4::583 583 583 583
+[S7.Ep17] The West Wing - Election Day, Part II::camera1::1653
+[S7.Ep17] The West Wing - Election Day, Part II::camera2::1311
+[S7.Ep17] The West Wing - Election Day, Part II::camera3::1391 1848 262
+[S7.Ep17] The West Wing - Election Day, Part II::camera4::262
+[S7.Ep16] The West Wing - Election Day::camera1::1436
+[S7.Ep16] The West Wing - Election Day::camera2::1436
+[S7.Ep16] The West Wing - Election Day::camera3::1343 1343
+[S7.Ep16] The West Wing - Election Day::camera4::221
+[S7.Ep21] The West Wing - Institutional Memory::camera1::954
+[S7.Ep21] The West Wing - Institutional Memory::camera2::954 75
+[S7.Ep21] The West Wing - Institutional Memory::camera4::954 1809 150
+[S7.Ep11] The West Wing - Internal Displacement::camera2::129
+[S7.Ep11] The West Wing - Internal Displacement::camera3::237 538
+[S7.Ep18] The West Wing - Requiem::camera1::1928 940
+[S7.Ep18] The West Wing - Requiem::camera2::482
+[S7.Ep18] The West Wing - Requiem::camera3::1457
+[S7.Ep18] The West Wing - Requiem::camera4::1903
+[S7.Ep10] The West Wing - Running Mates::camera1::54 1973
+[S7.Ep10] The West Wing - Running Mates::camera2::1942 1271 1973
+[S7.Ep10] The West Wing - Running Mates::camera4::2447
+[S7.Ep13] The West Wing - The Cold::camera1::1353
+[S7.Ep13] The West Wing - The Cold::camera4::793
+[S7.Ep20] The West Wing - The Last Hurrah::camera1::2187
+[S7.Ep20] The West Wing - The Last Hurrah::camera2::2187
+[S7.Ep20] The West Wing - The Last Hurrah::camera3::402 792
+[S7.Ep20] The West Wing - The Last Hurrah::camera4::791
+[S7.Ep9] The West Wing - The Wedding::camera2::537
+[S7.Ep22] The West Wing - Tomorrow::camera1::978
+[S7.Ep22] The West Wing - Tomorrow::camera2::978
+[S7.Ep19] The West Wing - Transition::camera1::465
+[S7.Ep19] The West Wing - Transition::camera3::894
+[S7.Ep14] The West Wing - Two Weeks Out::camera1::639 643
+[S7.Ep14] The West Wing - Two Weeks Out::camera2::639 643
+[S7.Ep14] The West Wing - Two Weeks Out::camera3::639
+[S7.Ep14] The West Wing - Two Weeks Out::camera4::639
+[S7.Ep8] The West Wing - Undecideds::camera1::2413 2419 1188
+[S7.Ep8] The West Wing - Undecideds::camera2::45 2419 495 1187
+[S7.Ep8] The West Wing - Undecideds::camera3::2419 1187
+[S7.Ep8] The West Wing - Undecideds::camera4::2419
+[S7.Ep15] The West Wing - Welcome to Wherever You Are::camera1::755 1311
+[S7.Ep15] The West Wing - Welcome to Wherever You Are::camera2::1423 1312
+[S7.Ep15] The West Wing - Welcome to Wherever You Are::camera3::1423 1846 655

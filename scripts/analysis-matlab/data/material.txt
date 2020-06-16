@@ -1,0 +1,217 @@
+[V1.Ep1] Dear White People - Chapter I 
+[V1.Ep2] Dear White People - Chapter II 
+[V2.Ep2] Dear White People - Chapter II 
+[V3.Ep2] Dear White People - Chapter II 
+[V1.Ep3] Dear White People - Chapter III 
+[V2.Ep3] Dear White People - Chapter III 
+[V3.Ep3] Dear White People - Chapter III 
+[V1.Ep4] Dear White People - Chapter IV 
+[V2.Ep4] Dear White People - Chapter IV 
+[V3.Ep4] Dear White People - Chapter IV 
+[V1.Ep9] Dear White People - Chapter IX 
+[V2.Ep9] Dear White People - Chapter IX 
+[V3.Ep9] Dear White People - Chapter IX 
+[V1.Ep5] Dear White People - Chapter V 
+[V2.Ep5] Dear White People - Chapter V 
+[V3.Ep5] Dear White People - Chapter V 
+[V1.Ep6] Dear White People - Chapter VI 
+[V2.Ep6] Dear White People - Chapter VI 
+[V3.Ep6] Dear White People - Chapter VI 
+[V1.Ep7] Dear White People - Chapter VII 
+[V2.Ep7] Dear White People - Chapter VII 
+[V3.Ep7] Dear White People - Chapter VII 
+[V1.Ep8] Dear White People - Chapter VIII 
+[V2.Ep8] Dear White People - Chapter VIII 
+[V3.Ep8] Dear White People - Chapter VIII 
+[V1.Ep10] Dear White People - Chapter X 
+[V2.Ep10] Dear White People - Chapter X 
+[V3.Ep10] Dear White People - Chapter X 
+[S4.Ep7] Friday Night Tykes - Ain't Gotta Cheat Us to Beat Us 
+[S4.Ep6] Friday Night Tykes - Ain't the Time to Be Holding Hands 
+[S3.Ep10] Friday Night Tykes - Babies from Texas 
+[S4.Ep5] Friday Night Tykes - Be the Adult 
+[S4.Ep9] Friday Night Tykes - But My Mama Ain't Here 
+[S4.Ep3] Friday Night Tykes - God Don't Like Ugly 
+[S4.Ep2] Friday Night Tykes - Home of the Gods 
+[S3.Ep9] Friday Night Tykes - I'm Not Ready to Be Done Yet 
+[S4.Ep10] Friday Night Tykes - If You Wanna Show, I'll Give You One 
+[S3.Ep6] Friday Night Tykes - Jesus in Football Cleats 
+[S4.Ep8] Friday Night Tykes - Ruined by Adults 
+[S3.Ep8] Friday Night Tykes - Two Danny Devitos 
+[S4.Ep4] Friday Night Tykes - We All Failed Him 
+[S4.Ep1] Friday Night Tykes - What's Your Malfunction 
+[S3.Ep7] Friday Night Tykes - When the Rabbit Has the Gun 
+[S7.Ep22] Gilmore Girls - Bon Voyage 
+[S7.Ep14] Gilmore Girls - Farewell, My Pet 
+[S7.Ep17] Gilmore Girls - Gilmore Girls Only 
+[S7.Ep18] Gilmore Girls - Hay Bale Maze 
+[S7.Ep13] Gilmore Girls - I'd Rather Be in Philadelphia 
+[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar 
+[S7.Ep8] Gilmore Girls - Introducing Lorelai Planetarium 
+[S7.Ep19] Gilmore Girls - It's Just Like Riding a Bike 
+[S7.Ep9] Gilmore Girls - Knit, People, Knit 
+[S7.Ep20] Gilmore Girls - Lorelai Lorelai 
+[S7.Ep10] Gilmore Girls - Merry Fisticuffs 
+[S7.Ep11] Gilmore Girls - Santa's Secret Stuff 
+[S7.Ep12] Gilmore Girls - To Whom It May Concern 
+[S7.Ep21] Gilmore Girls - Unto the Breach 
+[S7.Ep16] Gilmore Girls - Will You Be My Lorelai Gilmore 
+[S3.Ep3] Greenleaf - Chain of Command 
+[S3.Ep5] Greenleaf - Closing Doors 
+[S3.Ep12] Greenleaf - Day of Reckoning 
+[S3.Ep8] Greenleaf - Dea Abscondita 
+[S3.Ep9] Greenleaf - Runaway Train 
+[S3.Ep6] Greenleaf - She Changes Everything 
+[S3.Ep1] Greenleaf - Strange Currents 
+[S3.Ep7] Greenleaf - That Was Then 
+[S3.Ep11] Greenleaf - The End Is Near 
+[S3.Ep13] Greenleaf - The New Life 
+[S2.Ep16] Greenleaf - The Pearl 
+[S3.Ep10] Greenleaf - The Promised Land 
+[S3.Ep2] Greenleaf - The Space Between 
+[S3.Ep4] Greenleaf - The Underdog 
+[S2.Ep15] Greenleaf - Two by Two 
+[S15.Ep18] Grey's Anatomy - Add It Up 
+[S15.Ep17] Grey's Anatomy - And Dream of Sheep 
+[S15.Ep16] Grey's Anatomy - Blood and Water 
+[S15.Ep24] Grey's Anatomy - Drawn to the Blood 
+[S15.Ep12] Grey's Anatomy - Girlfriend in a Coma 
+[S15.Ep21] Grey's Anatomy - Good Shepherd 
+[S15.Ep22] Grey's Anatomy - Head Over High Heels 
+[S15.Ep13] Grey's Anatomy - I Walk the Line 
+[S15.Ep14] Grey's Anatomy - I Want a New Drug 
+[S15.Ep25] Grey's Anatomy - Jump into the Fog 
+[S15.Ep19] Grey's Anatomy - Silent All These Years 
+[S15.Ep20] Grey's Anatomy - The Whole Package 
+[S15.Ep11] Grey's Anatomy - The Winner Takes It All 
+[S15.Ep15] Grey's Anatomy - We Didn't Start the Fire 
+[S15.Ep23] Grey's Anatomy - What I Did for Love 
+[S5.Ep7] Jane The Virgin - Chapter Eighty-Eight 
+[S5.Ep8] Jane The Virgin - Chapter Eighty-Nine 
+[S5.Ep6] Jane The Virgin - Chapter Eighty-Seven 
+[S5.Ep5] Jane The Virgin - Chapter Eighty-Six 
+[S5.Ep9] Jane The Virgin - Chapter Ninety 
+[S5.Ep17] Jane The Virgin - Chapter Ninety-Eight 
+[S5.Ep14] Jane The Virgin - Chapter Ninety-Five 
+[S5.Ep13] Jane The Virgin - Chapter Ninety-Four 
+[S5.Ep18] Jane The Virgin - Chapter Ninety-Nine 
+[S5.Ep10] Jane The Virgin - Chapter Ninety-One 
+[S5.Ep16] Jane The Virgin - Chapter Ninety-Seven 
+[S5.Ep15] Jane The Virgin - Chapter Ninety-Six 
+[S5.Ep12] Jane The Virgin - Chapter Ninety-Three 
+[S5.Ep11] Jane The Virgin - Chapter Ninety-Two 
+[S5.Ep19] Jane The Virgin - Chapter One Hundred 
+[S2.Ep10] Narcos - Al Fin Cayó! 
+[S3.Ep6] Narcos - Best Laid Plans 
+[S3.Ep4] Narcos - Checkmate 
+[S3.Ep8] Narcos - Convivir 
+[S2.Ep8] Narcos - Exit El Patrón 
+[S3.Ep3] Narcos - Follow the Money 
+[S3.Ep10] Narcos - Going Back to Cali 
+[S3.Ep5] Narcos - MRO 
+[S2.Ep9] Narcos - Nuestra Finca 
+[S3.Ep7] Narcos - Sin Salida 
+[S3.Ep2] Narcos - The Cali KGB 
+[S3.Ep9] Narcos - Todos Los Hombres del Presidente 
+[S3.Ep15] Riverdale - Chapter Fifty - 'American Dreams' 
+[S3.Ep20] Riverdale - Chapter Fifty-Five - 'Prom Night' 
+[S3.Ep19] Riverdale - Chapter Fifty-Four - “Fear the Reaper” 
+[S3.Ep16] Riverdale - Chapter Fifty-One - 'Big Fun' 
+[S3.Ep22] Riverdale - Chapter Fifty-Seven - 'Survive the Night' 
+[S3.Ep21] Riverdale - Chapter Fifty-Six - 'The Dark Secret of Harvest House' 
+[S3.Ep18] Riverdale - Chapter Fifty-Three - 'Jawbreaker' 
+[S3.Ep17] Riverdale - Chapter Fifty-Two - “The Raid” 
+[S3.Ep13] Riverdale - Chapter Forty-Eight - 'Requiem for a Welterweight' 
+[S3.Ep10] Riverdale - Chapter Forty-Five - 'The Stranger' 
+[S3.Ep9] Riverdale - Chapter Forty-Four - 'No Exit' 
+[S3.Ep14] Riverdale - Chapter Forty-Nine - 'Fire Walk With Me' 
+[S3.Ep12] Riverdale - Chapter Forty-Seven - 'Bizarrodale' 
+[S3.Ep11] Riverdale - Chapter Forty-Six - 'The Red Dahlia' 
+[S3.Ep8] Riverdale - Chapter Forty-Three - 'Outbreak' 
+[S11.Ep24] The Big Bang Theory - The Bow Tie Asymmetry 
+[S12.Ep23] The Big Bang Theory - The Change Constant 
+[S12.Ep9] The Big Bang Theory - The Citation Negation 
+[S11.Ep21] The Big Bang Theory - The Comet Polarization 
+[S12.Ep17] The Big Bang Theory - The Conference Valuation 
+[S12.Ep13] The Big Bang Theory - The Confirmation Polarization 
+[S12.Ep1] The Big Bang Theory - The Conjugal Configuration 
+[S12.Ep8] The Big Bang Theory - The Consummation Deviation 
+[S12.Ep16] The Big Bang Theory - The D & D Vortex 
+[S12.Ep20] The Big Bang Theory - The Decision Reverberation 
+[S12.Ep15] The Big Bang Theory - The Donation Oscillation 
+[S12.Ep7] The Big Bang Theory - The Grant Allocation Derivation 
+[S12.Ep6] The Big Bang Theory - The Imitation Perturbation 
+[S12.Ep19] The Big Bang Theory - The Inspiration Deprivation 
+[S12.Ep18] The Big Bang Theory - The Laureate Accumulation 
+[S12.Ep22] The Big Bang Theory - The Maternal Conclusion 
+[S12.Ep14] The Big Bang Theory - The Meteorite Manifestation 
+[S11.Ep22] The Big Bang Theory - The Monetary Insufficiency 
+[S12.Ep11] The Big Bang Theory - The Paintball Scattering 
+[S12.Ep21] The Big Bang Theory - The Plagiarism Schism 
+[S12.Ep5] The Big Bang Theory - The Planetarium Collision 
+[S12.Ep3] The Big Bang Theory - The Procreation Calculation 
+[S12.Ep12] The Big Bang Theory - The Propagation Proposition 
+[S11.Ep20] The Big Bang Theory - The Reclusive Potential 
+[S11.Ep23] The Big Bang Theory - The Sibling Realignment 
+[S12.Ep24] The Big Bang Theory - The Stockholm Syndrome 
+[S12.Ep4] The Big Bang Theory - The Tam Turbulence 
+[S11.Ep19] The Big Bang Theory - The Tenant Disassociation 
+[S12.Ep10] The Big Bang Theory - The VCR Illumination 
+[S12.Ep2] The Big Bang Theory - The Wedding Gift Wormhole 
+[S6.Ep3] The L Word - LMFAO 
+[S6.Ep6] The L Word - Lactose Intolerant 
+[S6.Ep7] The L Word - Last Couple Standing 
+[S5.Ep8] The L Word - Laydown the Law 
+[S6.Ep2] The L Word - Least Likely 
+[S6.Ep4] The L Word - Leaving Los Angeles 
+[S5.Ep10] The L Word - Lifecycle 
+[S5.Ep9] The L Word - Liquid Heat 
+[S6.Ep5] The L Word - Litmus Test 
+[S6.Ep1] The L Word - Long Night's Journey into Day 
+[S5.Ep12] The L Word - Loyal and True 
+[S5.Ep11] The L Word - Lunar Cycle 
+[S9.Ep22] The Office (U.S.) - A.A.R.M 
+[S9.Ep3] The Office (U.S.) - Andy's Ancestry 
+[S8.Ep21] The Office (U.S.) - Angry Andy 
+[S9.Ep15] The Office (U.S.) - Couple's Discount 
+[S9.Ep12] The Office (U.S.) - Customer Loyalty 
+[S9.Ep9] The Office (U.S.) - Dwight Christmas 
+[S9.Ep23] The Office (U.S.) - Finale 
+[S8.Ep24] The Office (U.S.) - Free Family Portrait Studio 
+[S8.Ep22] The Office (U.S.) - Fundraiser 
+[S8.Ep19] The Office (U.S.) - Get the Girl 
+[S9.Ep5] The Office (U.S.) - Here Comes Treble 
+[S9.Ep13] The Office (U.S.) - Junior Salesman 
+[S8.Ep18] The Office (U.S.) - Last Day in Florida 
+[S9.Ep10] The Office (U.S.) - Lice 
+[S9.Ep21] The Office (U.S.) - Livin' the Dream 
+[S9.Ep16] The Office (U.S.) - Moving On 
+[S9.Ep1] The Office (U.S.) - New Guys 
+[S9.Ep20] The Office (U.S.) - Paper Airplane 
+[S9.Ep18] The Office (U.S.) - Promos 
+[S9.Ep2] The Office (U.S.) - Roy's Wedding 
+[S9.Ep19] The Office (U.S.) - Stairmageddon 
+[S9.Ep11] The Office (U.S.) - Suit Warehouse 
+[S9.Ep6] The Office (U.S.) - The Boat 
+[S9.Ep17] The Office (U.S.) - The Farm 
+[S9.Ep8] The Office (U.S.) - The Target 
+[S9.Ep7] The Office (U.S.) - The Whale 
+[S8.Ep23] The Office (U.S.) - Turf War 
+[S9.Ep14] The Office (U.S.) - Vandalism 
+[S8.Ep20] The Office (U.S.) - Welcome Party 
+[S9.Ep4] The Office (U.S.) - Work Bus 
+[S7.Ep12] The West Wing - Duck and Cover 
+[S7.Ep16] The West Wing - Election Day 
+[S7.Ep17] The West Wing - Election Day, Part II 
+[S7.Ep21] The West Wing - Institutional Memory 
+[S7.Ep11] The West Wing - Internal Displacement 
+[S7.Ep18] The West Wing - Requiem 
+[S7.Ep10] The West Wing - Running Mates 
+[S7.Ep13] The West Wing - The Cold 
+[S7.Ep20] The West Wing - The Last Hurrah 
+[S7.Ep9] The West Wing - The Wedding 
+[S7.Ep22] The West Wing - Tomorrow 
+[S7.Ep19] The West Wing - Transition 
+[S7.Ep14] The West Wing - Two Weeks Out 
+[S7.Ep8] The West Wing - Undecideds 
+[S7.Ep15] The West Wing - Welcome to Wherever You Are 

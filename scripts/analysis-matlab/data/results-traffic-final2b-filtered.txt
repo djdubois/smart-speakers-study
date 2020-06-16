@@ -1,0 +1,186 @@
+/opt/voice-assist/capture/final2b/[S7.Ep13] The West Wing - The Cold/capture.mkv:Devices with corresponding times are listed below: 
+echodot:(793, 793)
+/opt/voice-assist/capture/final2b/[S7.Ep18] Gilmore Girls - Hay Bale Maze/capture.mkv:Devices with corresponding times are listed below: 
+echodot:(2374, 2374)
+/opt/voice-assist/capture/final2b/[S7.Ep15] The West Wing - Welcome to Wherever You Are/capture.mkv:Devices with corresponding times are listed below: 
+echodot:(1847, 1847)
+/opt/voice-assist/capture/final2b/[S4.Ep7] Friday Night Tykes - Ain't Gotta Cheat Us to Beat Us/capture.mkv:Devices with corresponding times are listed below: 
+echodot:(1096, 1096)
+/opt/voice-assist/capture/final2b/[S5.Ep16] Jane The Virgin - Chapter Ninety-Seven/capture.mkv:Devices with corresponding times are listed below: 
+echodot:(147, 147)
+/opt/voice-assist/capture/final2b/[S5.Ep7] Jane The Virgin - Chapter Eighty-Eight/capture.mkv:Devices with corresponding times are listed below: 
+echodot:(1827, 1827)
+/opt/voice-assist/capture/final2b/[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar/capture.mkv:Devices with corresponding times are listed below: 
+echodot:(71, 71)
+/opt/voice-assist/capture/final2b/[S5.Ep6] Jane The Virgin - Chapter Eighty-Seven/capture.mkv:Devices with corresponding times are listed below: 
+echodot:(327, 327)
+/opt/voice-assist/capture/final2b/[S7.Ep16] Gilmore Girls - Will You Be My Lorelai Gilmore/capture.mkv:Devices with corresponding times are listed below: 
+echodot:(584, 584)
+/opt/voice-assist/capture/final2b/[S9.Ep15] The Office (U.S.) - Couple's Discount/capture.mkv:Devices with corresponding times are listed below: 
+echodot3a:(859, 859)
+/opt/voice-assist/capture/final2b/[S3.Ep18] Riverdale - Chapter Fifty-Three - 'Jawbreaker'/capture.mkv:Devices with corresponding times are listed below: 
+echodot3a:(1990, 1990)
+/opt/voice-assist/capture/final2b/[S9.Ep11] The Office (U.S.) - Suit Warehouse/capture.mkv:Devices with corresponding times are listed below: 
+echodot3a:(246, 246)
+/opt/voice-assist/capture/final2b/[V1.Ep10] Dear White People - Chapter X/capture.mkv:Devices with corresponding times are listed below: 
+echodot3a:(149, 149)
+/opt/voice-assist/capture/final2b/[S7.Ep21] The West Wing - Institutional Memory/capture.mkv:Devices with corresponding times are listed below: 
+echodot3a:(147, 147)
+/opt/voice-assist/capture/final2b/[S7.Ep18] The West Wing - Requiem/capture.mkv:Devices with corresponding times are listed below: 
+echodot3a:(1904, 1904)
+/opt/voice-assist/capture/final2b/[S7.Ep10] The West Wing - Running Mates/capture.mkv:Devices with corresponding times are listed below: 
+echodot3a:(2450, 2450)
+/opt/voice-assist/capture/final2b/[S3.Ep12] Riverdale - Chapter Forty-Seven - 'Bizarrodale'/capture.mkv:Devices with corresponding times are listed below: 
+echodot3a:(1436, 1436)
+/opt/voice-assist/capture/final2b/[S3.Ep7] Greenleaf - That Was Then/capture.mkv:Devices with corresponding times are listed below: 
+echodot3a:(1658, 1658)
+/opt/voice-assist/capture/final2b/[S12.Ep17] The Big Bang Theory - The Conference Valuation/capture.mkv:Devices with corresponding times are listed below: 
+echodot3a:(357, 357)
+/opt/voice-assist/capture/final2b/[S7.Ep18] Gilmore Girls - Hay Bale Maze/capture.mkv:Devices with corresponding times are listed below: 
+/opt/voice-assist/capture/final2b/[S9.Ep21] The Office (U.S.) - Livin' the Dream/capture.mkv:Devices with corresponding times are listed below: 
+echodot3b:(2253, 2253)
+/opt/voice-assist/capture/final2b/[S11.Ep23] The Big Bang Theory - The Sibling Realignment/capture.mkv:Devices with corresponding times are listed below: 
+/opt/voice-assist/capture/final2b/[S12.Ep21] The Big Bang Theory - The Plagiarism Schism/capture.mkv:Devices with corresponding times are listed below: 
+/opt/voice-assist/capture/final2b/[S3.Ep6] Narcos - Best Laid Plans/capture.mkv:Devices with corresponding times are listed below: 
+echodot3b:(3018, 3018)
+/opt/voice-assist/capture/final2b/[S3.Ep11] Riverdale - Chapter Forty-Six - 'The Red Dahlia'/capture.mkv:Devices with corresponding times are listed below: 
+echodot3b:(1028, 1028)
+/opt/voice-assist/capture/final2b/[S9.Ep23] The Office (U.S.) - Finale/capture.mkv:Devices with corresponding times are listed below: 
+echodot3b:(446, 446)
+/opt/voice-assist/capture/final2b/[S5.Ep8] Jane The Virgin - Chapter Eighty-Nine/capture.mkv:Devices with corresponding times are listed below: 
+echodot3b:(2475, 2475)
+/opt/voice-assist/capture/final2b/[S7.Ep12] Gilmore Girls - To Whom It May Concern/capture.mkv:Devices with corresponding times are listed below: 
+echodot3b:(1005, 1005)
+/opt/voice-assist/capture/final2b/[S3.Ep7] Narcos - Sin Salida/capture.mkv:Devices with corresponding times are listed below: 
+echodot3b:(147, 147)
+/opt/voice-assist/capture/final2b/[V1.Ep2] Dear White People - Chapter II/capture.mkv:Devices with corresponding times are listed below: 
+echodot3b:(66, 66)
+/opt/voice-assist/capture/final2b/[V3.Ep3] Dear White People - Chapter III/capture.mkv:Devices with corresponding times are listed below: 
+echodot3b:(1463, 1463)
+/opt/voice-assist/capture/final2b/[S7.Ep17] The West Wing - Election Day, Part II/capture.mkv:Devices with corresponding times are listed below: 
+echodot3b:(259, 259)
+/opt/voice-assist/capture/final2b/[S6.Ep7] The L Word - Last Couple Standing/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(1547, 1547)
+/opt/voice-assist/capture/final2b/[V2.Ep5] Dear White People - Chapter V/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(539, 539)
+/opt/voice-assist/capture/final2b/[S12.Ep16] The Big Bang Theory - The D & D Vortex/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(1077, 1077)
+/opt/voice-assist/capture/final2b/[S4.Ep10] Friday Night Tykes - If You Wanna Show, I'll Give You One/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(945, 945)
+/opt/voice-assist/capture/final2b/[S7.Ep19] Gilmore Girls - It's Just Like Riding a Bike/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(1238, 1238)
+/opt/voice-assist/capture/final2b/[S15.Ep15] Grey's Anatomy - We Didn't Start the Fire/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(1626, 1626)
+/opt/voice-assist/capture/final2b/[S5.Ep10] The L Word - Lifecycle/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(2142, 2142)
+/opt/voice-assist/capture/final2b/[S3.Ep4] Greenleaf - The Underdog/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(1016, 1016)
+/opt/voice-assist/capture/final2b/[S3.Ep3] Greenleaf - Chain of Command/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(1746, 1746)
+/opt/voice-assist/capture/final2b/[S5.Ep13] Jane The Virgin - Chapter Ninety-Four/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(1294, 1294)
+/opt/voice-assist/capture/final2b/[S12.Ep10] The Big Bang Theory - The VCR Illumination/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(591, 591)
+/opt/voice-assist/capture/final2b/[S5.Ep9] Jane The Virgin - Chapter Ninety/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(1078, 1078)
+/opt/voice-assist/capture/final2b/[S6.Ep5] The L Word - Litmus Test/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(482, 482)
+/opt/voice-assist/capture/final2b/[S3.Ep15] Riverdale - Chapter Fifty - 'American Dreams'/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(1969, 1969)
+/opt/voice-assist/capture/final2b/[S7.Ep15] Gilmore Girls - I'm a Kayak, Hear Me Roar/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(1411, 1411)
+/opt/voice-assist/capture/final2b/[S7.Ep14] Gilmore Girls - Farewell, My Pet/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(774, 774)
+/opt/voice-assist/capture/final2b/[S12.Ep7] The Big Bang Theory - The Grant Allocation Derivation/capture.mkv:Devices with corresponding times are listed below: 
+google-home-mini2:(657, 657)
+/opt/voice-assist/capture/final2b/[S11.Ep24] The Big Bang Theory - The Bow Tie Asymmetry/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(668, 668)
+/opt/voice-assist/capture/final2b/[S15.Ep15] Grey's Anatomy - We Didn't Start the Fire/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(1768, 1768)
+/opt/voice-assist/capture/final2b/[S2.Ep9] Narcos - Nuestra Finca/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(3161, 3161)
+/opt/voice-assist/capture/final2b/[S12.Ep6] The Big Bang Theory - The Imitation Perturbation/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(660, 660)
+/opt/voice-assist/capture/final2b/[S5.Ep9] Jane The Virgin - Chapter Ninety/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(1159, 1159)
+/opt/voice-assist/capture/final2b/[S4.Ep8] Friday Night Tykes - Ruined by Adults/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(2377, 2377)
+/opt/voice-assist/capture/final2b/[V1.Ep2] Dear White People - Chapter II/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(1183, 1183)
+/opt/voice-assist/capture/final2b/[S8.Ep20] The Office (U.S.) - Welcome Party/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(25, 25)
+/opt/voice-assist/capture/final2b/[V3.Ep4] Dear White People - Chapter IV/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(45, 45)
+/opt/voice-assist/capture/final2b/[S3.Ep19] Riverdale - Chapter Fifty-Four - “Fear the Reaper”/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(1692, 1692)
+/opt/voice-assist/capture/final2b/[S3.Ep11] Greenleaf - The End Is Near/capture.mkv:Devices with corresponding times are listed below: 
+homepod:(3, 3)
+/opt/voice-assist/capture/final2b/[S12.Ep14] The Big Bang Theory - The Meteorite Manifestation/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(88, 88)
+/opt/voice-assist/capture/final2b/[S12.Ep16] The Big Bang Theory - The D & D Vortex/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(26, 26)
+/opt/voice-assist/capture/final2b/[V1.Ep10] Dear White People - Chapter X/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(1763, 1763)
+/opt/voice-assist/capture/final2b/[S12.Ep2] The Big Bang Theory - The Wedding Gift Wormhole/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(568, 568)
+/opt/voice-assist/capture/final2b/[S5.Ep11] Jane The Virgin - Chapter Ninety-Two/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(1283, 1283)
+/opt/voice-assist/capture/final2b/[S3.Ep9] Greenleaf - Runaway Train/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(165, 165)
+/opt/voice-assist/capture/final2b/[S5.Ep18] Jane The Virgin - Chapter Ninety-Nine/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(1467, 1467)
+/opt/voice-assist/capture/final2b/[V2.Ep4] Dear White People - Chapter IV/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(1659, 1659)
+/opt/voice-assist/capture/final2b/[S5.Ep10] The L Word - Lifecycle/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(1465, 1465)
+/opt/voice-assist/capture/final2b/[S12.Ep18] The Big Bang Theory - The Laureate Accumulation/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(267, 267)
+/opt/voice-assist/capture/final2b/[V1.Ep5] Dear White People - Chapter V/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(1010, 1010)
+/opt/voice-assist/capture/final2b/[S3.Ep15] Riverdale - Chapter Fifty - 'American Dreams'/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(867, 867)
+/opt/voice-assist/capture/final2b/[S5.Ep12] Jane The Virgin - Chapter Ninety-Three/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(1033, 1033)
+/opt/voice-assist/capture/final2b/[S12.Ep17] The Big Bang Theory - The Conference Valuation/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(26, 26)
+/opt/voice-assist/capture/final2b/[S3.Ep9] Friday Night Tykes - I'm Not Ready to Be Done Yet/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(633, 633)
+/opt/voice-assist/capture/final2b/[S7.Ep12] The West Wing - Duck and Cover/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(338, 338)
+/opt/voice-assist/capture/final2b/[S9.Ep16] The Office (U.S.) - Moving On/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(423, 423)
+/opt/voice-assist/capture/final2b/[S12.Ep4] The Big Bang Theory - The Tam Turbulence/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(145, 145)
+/opt/voice-assist/capture/final2b/[S9.Ep18] The Office (U.S.) - Promos/capture.mkv:Devices with corresponding times are listed below: 
+invoke:(745, 745)
+/opt/voice-assist/capture/final2b/[S7.Ep16] The West Wing - Election Day/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(219, 219)
+/opt/voice-assist/capture/final2b/[S8.Ep18] The Office (U.S.) - Last Day in Florida/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(498, 498)
+/opt/voice-assist/capture/final2b/[S6.Ep3] The L Word - LMFAO/capture.mkv:Devices with corresponding times are listed below: 
+/opt/voice-assist/capture/final2b/[S9.Ep21] The Office (U.S.) - Livin' the Dream/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(2161, 2161)
+/opt/voice-assist/capture/final2b/[S9.Ep14] The Office (U.S.) - Vandalism/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(38, 38)
+/opt/voice-assist/capture/final2b/[S15.Ep17] Grey's Anatomy - And Dream of Sheep/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(179, 179)
+/opt/voice-assist/capture/final2b/[V3.Ep6] Dear White People - Chapter VI/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(262, 262)
+/opt/voice-assist/capture/final2b/[S3.Ep9] Greenleaf - Runaway Train/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(1271, 1271)
+/opt/voice-assist/capture/final2b/[S9.Ep8] The Office (U.S.) - The Target/capture.mkv:Devices with corresponding times are listed below: 
+/opt/voice-assist/capture/final2b/[S4.Ep9] Friday Night Tykes - But My Mama Ain't Here/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(388, 388)
+/opt/voice-assist/capture/final2b/[S5.Ep16] Jane The Virgin - Chapter Ninety-Seven/capture.mkv:Devices with corresponding times are listed below: 
+/opt/voice-assist/capture/final2b/[S3.Ep12] Riverdale - Chapter Forty-Seven - 'Bizarrodale'/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(2284, 2284)
+/opt/voice-assist/capture/final2b/[S15.Ep25] Grey's Anatomy - Jump into the Fog/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(2230, 2230)
+/opt/voice-assist/capture/final2b/[S3.Ep8] Greenleaf - Dea Abscondita/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(387, 387)
+/opt/voice-assist/capture/final2b/[S2.Ep9] Narcos - Nuestra Finca/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(469, 469)
+/opt/voice-assist/capture/final2b/[S15.Ep12] Grey's Anatomy - Girlfriend in a Coma/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(152, 152)
+/opt/voice-assist/capture/final2b/[S2.Ep16] Greenleaf - The Pearl/capture.mkv:Devices with corresponding times are listed below: 
+t-echodot:(334, 334)
