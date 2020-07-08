@@ -1,29 +1,39 @@
 #!/bin/bash
-#./peaks.sh $FILE_PATH $DEVICE
 
 print_usage() {
     exit_stat=$1
     usg_stm="
-Usage: $0 [OPTION]...
+Usage: $0 -i IN_PCAP {-d DEV | -t THRES -m MAC } [-o OUT_DIR] [-h]
 
-Determines activations.
+Determines when smart devices activate.
 
-Example: $0
+Example: $0 -i echodot3a.pcap -d echodot
 
 Options:
-"
+  -i IN_PCAP the input pcap file to analyze; this option is required
+  -d DEV     the device that recorded IN_PCAP; either this option or the -t and
+               -m options must be specified
+  -t THRES   the threshold of when the device taht recorded IN_PCAP activates;
+               either this and the -m option must be specified or the -d option
+               must be specified
+  -m MAC     the MAC address of the device that recorded IN_PCAP; either this
+               and the -t option must be specified or the -d option must be
+               specified
+  -o OUT_DIR path to an output directory to place the results; directory will be
+               generated if it does not exist (Default = results/)
+  -h         print this usage statement and exit"
 
     if [ $exit_stat -eq 0 ]
     then
-        echo -e $usg_stm
+        echo -e "$usg_stm"
     else
-        echo -e $usg_stm >&2
+        echo -e "$usg_stm" >&2
     fi
     exit $exit_stat
 }
 
 read_args() {
-    while getopts "i:o:d:t:h" opt
+    while getopts "i:o:d:t:m:h" opt
     do
         case $opt in
             i)
@@ -144,7 +154,7 @@ analyze() {
 
         awk -F "," {'print $4 " " $7'} ${out_file}_peak.csv
 
-        #rm ${out_file}.csv ${out_file}_temp_2 ${out_file}_temp ${out_file}_start_end.csv ${out_file}_start_end.csv_timestamp
+        rm ${out_file}.csv ${out_file}_temp_2 ${out_file}_temp ${out_file}_start_end.csv ${out_file}_start_end.csv_timestamp
 
         sed -i '1i start_pcap,time_start_pcap,rel_time_pcap,start_peak,time_start_peak,rel_time_start_peak,end_peak,time_end_peak,rel_time_end_peak' ${out_file}_peak.csv
     fi
