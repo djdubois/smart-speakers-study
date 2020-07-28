@@ -3,7 +3,7 @@
 print_usage() {
     exit_stat=$1
     usg_stm="
-Usage: $0 -i IN_PCAP { -d DEV | -t THRES -m MAC } [-o OUT_DIR] [-h]
+Usage: $0 -i IN_PCAP {-d DEV | -t THRES -m MAC} [-o OUT_DIR] [-h]
 
 Determines when smart devices activate.
 
